@@ -1,0 +1,30 @@
+---
+kindle-sync:
+  bookId: '5807'
+  title: 味の素　「残業ゼロ」改革 (日本経済新聞出版)
+  author: 石塚由紀夫
+  asin: B07ZRFYSXN
+  lastAnnotatedDate: Invalid date
+  bookImageUrl: 'https://m.media-amazon.com/images/I/71RO8cPnpoL._SY160.jpg'
+  highlightsCount: 4
+---
+# 味の素　「残業ゼロ」改革
+## Metadata
+* Author: [石塚由紀夫](https://www.amazon.comundefined)
+* ASIN: B07ZRFYSXN
+* Reference: https://www.amazon.com/dp/B07ZRFYSXN
+* [Kindle link](kindle://book?action=open&asin=B07ZRFYSXN)
+
+## Highlights
+一定の品質の製品を大量に作ることで企業は売上を確保できた。生産量は労働時間とほぼ比例していた。残業して生産量を増やせば、その分、売上も伸びる。大量生産大量消費時代は長時間労働が企業経営に有効だったのだ。 — location: [153](kindle://book?action=open&asin=B07ZRFYSXN&location=153) ^ref-8433
+
+---
+た。五つ目の味覚である「うま味」の発見は偉業だった。当時「味の素」は、御木本幸吉の真珠養殖と豊田佐吉の自動織機とともに「日本人の三大発見」に数えられた。 — location: [171](kindle://book?action=open&asin=B07ZRFYSXN&location=171) ^ref-60462
+
+---
+ない。「こんな非効率な働き方は、海外法人ではありえない。会議は集まって結論を出す場。情報共有だけの会議はいらない」 — location: [431](kindle://book?action=open&asin=B07ZRFYSXN&location=431) ^ref-34900
+
+---
+資料も事前に作成し、ネット上の共有ボックスにあげておくと決めた。参加者は手が空いているときに事前に読んでおく。当日は資料の説明を省き、冒頭から本題に入る。資料の体裁を不必要に整えるのも禁じた。作成に時間をかけるよりも本質的な議論に時間を割く方が生産的だ。情報の要点さえ伝われば、見栄えは気にせず、従来比７～８割の仕上がりでも構わないとした。 — location: [437](kindle://book?action=open&asin=B07ZRFYSXN&location=437) ^ref-55535
+
+---

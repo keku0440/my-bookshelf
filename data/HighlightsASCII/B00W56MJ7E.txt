@@ -1,0 +1,39 @@
+---
+kindle-sync:
+  bookId: '32718'
+  title: もっと早く、もっと楽しく、仕事の成果をあげる法 知恵がどんどん湧く「戦略的思考力」を身につけよ
+  author: 古谷 昇
+  asin: B00W56MJ7E
+  lastAnnotatedDate: Invalid date
+  bookImageUrl: 'https://m.media-amazon.com/images/I/A1Q6DiOww7L._SY160.jpg'
+  highlightsCount: 7
+---
+# もっと早く、もっと楽しく、仕事の成果をあげる法 知恵がどんどん湧く「戦略的思考力」を身につけよ
+## Metadata
+* Author: [古谷 昇](https://www.amazon.comundefined)
+* ASIN: B00W56MJ7E
+* Reference: https://www.amazon.com/dp/B00W56MJ7E
+* [Kindle link](kindle://book?action=open&asin=B00W56MJ7E)
+
+## Highlights
+問題は解決したも同じ 新米ビジネスマンが陥りやすい罠 アイデアマンは得てして仕事ができない — location: [82](kindle://book?action=open&asin=B00W56MJ7E&location=82) ^ref-46014
+
+---
+いまこの時点からあなたの考え方を、「教えてもらう」から「自ら学んでやろう」に方向転換してほしい、ということ — location: [177](kindle://book?action=open&asin=B00W56MJ7E&location=177) ^ref-38211
+
+---
+に、人のあらゆる活動に関わるノウハウには、どうやら次の三つのレベルがあるといっていいだろう。 　① 意気込みでやる 　② 手法、テクニック、知識でやる 　③ コツでやる — location: [227](kindle://book?action=open&asin=B00W56MJ7E&location=227) ^ref-55589
+
+---
+プレゼンの要素は「パッケージ」と「話法」の二つである（図 — location: [282](kindle://book?action=open&asin=B00W56MJ7E&location=282) ^ref-2283
+
+---
+プレゼン上達法も同じで、最初からたくさんのことを教えすぎたら、かえって混乱してしまうだけだ。 　教えるのは、次の三つだけでいい。 　① 声を大きく 　② スライドを見ない 　③ テンポを変える — location: [305](kindle://book?action=open&asin=B00W56MJ7E&location=305) ^ref-8805
+
+---
+世界のコンサル業界を変えてしまったほどのコンセプトをつくったヘンダーソンが、その著書の中で、ビジネスで成功するには何が必要かと聞かれて、「成功の一番の鍵は運である。そして二番目が戦略だ」といって — location: [814](kindle://book?action=open&asin=B00W56MJ7E&location=814) ^ref-23959
+
+---
+① 差別化が利益を生む 　② 戦略とは資源配分である — location: [825](kindle://book?action=open&asin=B00W56MJ7E&location=825) ^ref-48761
+
+---

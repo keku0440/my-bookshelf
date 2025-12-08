@@ -1,0 +1,21 @@
+---
+kindle-sync:
+  bookId: '12757'
+  title: 江副浩正
+  author: 馬場 マコト and 土屋 洋
+  asin: B07835MRZ7
+  lastAnnotatedDate: Invalid date
+  bookImageUrl: 'https://m.media-amazon.com/images/I/81ingaQPDXL._SY160.jpg'
+  highlightsCount: 1
+---
+# 江副浩正
+## Metadata
+* Author: [馬場 マコト and 土屋 洋](https://www.amazon.comundefined)
+* ASIN: B07835MRZ7
+* Reference: https://www.amazon.com/dp/B07835MRZ7
+* [Kindle link](kindle://book?action=open&asin=B07835MRZ7)
+
+## Highlights
+ボストンバッグから「会社四季報」新春号を取り出し、開く。この号は重要だ。三月期決算企業の中間決算情報と当期の業績計画が同時に掲載されている。その二つを並べ比べると、数字があまりにも 乖離 している企業が必ず見つかる。その裏にはきっとなにかある。それを「会社四季報」から読み解いていくのだ。 　最近はコンピュータを使った株売買が主流だが、江副にはそこがわからない。 「会社四季報」の数字を読み込み、だれも目をつけない事業の萌芽や、破たんにいち早く注目する。そして、事業家江副浩正の直感で投機銘柄を割り出し、思い切り仕掛けるのだ。それが株の醍醐味。なのに、コンピュータに判断を任せるなど信じられない。 — location: [117](kindle://book?action=open&asin=B07835MRZ7&location=117) ^ref-25577
+
+---

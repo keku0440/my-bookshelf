@@ -1,0 +1,39 @@
+---
+kindle-sync:
+  bookId: '29977'
+  title: １日のタスクが１時間で片づく　アマゾンのスピード仕事術
+  author: 佐藤 将之
+  asin: B07HQ11PCC
+  lastAnnotatedDate: Invalid date
+  bookImageUrl: 'https://m.media-amazon.com/images/I/71ysqqy8j8L._SY160.jpg'
+  highlightsCount: 7
+---
+# １日のタスクが１時間で片づく　アマゾンのスピード仕事術
+## Metadata
+* Author: [佐藤 将之](https://www.amazon.comundefined)
+* ASIN: B07HQ11PCC
+* Reference: https://www.amazon.com/dp/B07HQ11PCC
+* [Kindle link](kindle://book?action=open&asin=B07HQ11PCC)
+
+## Highlights
+ところが、企画を通すのに１年、プロジェクトチームを編成するのに半年。アイデアが形になるまでにいったい何年かかるのか……という時間のかけ方をする企業が多いのです。まるで「時が止まっている」かのような錯覚に陥ります。 　その膨大な時間は、いったい誰の喜びのための時間なのでしょうか？　お客様に「喜んでお金を払いたい」と思ってもらえないならば、それは残念 — location: [213](kindle://book?action=open&asin=B07HQ11PCC&location=213) ^ref-46025
+
+---
+ムダな行動、ムダな努力と言わざるを得ません。このような悩みを抱え、日々徒労感に襲われているビジネスパーソンが非常に多いのではないでしょうか。 — location: [216](kindle://book?action=open&asin=B07HQ11PCC&location=216) ^ref-49450
+
+---
+少し負荷を上げた環境に身を置けば、身体は自然と慣れていく──これはスポーツのトレーニングなどにも共通する考え方だと言えます。もしも今の自分を「スピード体質」に適合できる環境に置きたいなら、２つのアプローチが可能です。 　１つは、「自ら締め切りを前倒しして期間を少し短くする」 こと。 　もう１つは、「自ら目標数値を引き上げて難易度をアップする」 こと。 　特に前者は、今の仕事でスケジュールに余白をつくれるという点でオススメです。余白ができたら、まずは「自分を楽しむための時間」に充ててみましょう。そして余白の喜びを十分味わったところで、「お客様のためにその — location: [269](kindle://book?action=open&asin=B07HQ11PCC&location=269) ^ref-43644
+
+---
+「社内資料のグラフ作成に膨大な時間をかける社員」がいたとします。その給料が上乗せされた商品を、あなたはお客として喜んで買うでしょうか？　まあ仕方ないと納得するでしょうか？ 　何度もお話ししてきたように、 — location: [674](kindle://book?action=open&asin=B07HQ11PCC&location=674) ^ref-27449
+
+---
+「これ必要かな？」と感じたら、密かにやめてみましょう。誰にも指摘されなければ、やめても大丈夫な仕事なのです。 　もしも指摘されたら、その理由を聞いてみましょう。続ける理由が「お客様のため」以外の理由だったら、「カスタマー・エクスペリエンス」を軸に、対処を検討すれば答えが導き出せるでしょう。 — location: [693](kindle://book?action=open&asin=B07HQ11PCC&location=693) ^ref-54912
+
+---
+「社員が善意（ ＝おもてなしの心）を発揮する仕組みをつくれていない」 ↓ 「にもかかわらず、社員の善意に頼ろうとする」 ↓ 「すると、善意を発揮すればするほど職場が疲弊していく」 — location: [716](kindle://book?action=open&asin=B07HQ11PCC&location=716) ^ref-58735
+
+---
+「そして、善意を発揮してきた社員から辞めていく」 ↓ 「それに気づかず、経営側やマネジメント側は『もっと善意を発揮しろ』と指示する」 　……という負 — location: [720](kindle://book?action=open&asin=B07HQ11PCC&location=720) ^ref-57649
+
+---

@@ -1,0 +1,72 @@
+---
+kindle-sync:
+  bookId: '52757'
+  title: マンガでやさしくわかるインバスケット思考
+  author: '鳥原隆志, 星井博文, and 稲垣まこと'
+  asin: B01LY6BGEK
+  lastAnnotatedDate: Invalid date
+  bookImageUrl: 'https://m.media-amazon.com/images/I/91encsdMZbL._SY160.jpg'
+  highlightsCount: 18
+---
+# マンガでやさしくわかるインバスケット思考
+## Metadata
+* Author: [鳥原隆志, 星井博文, and 稲垣まこと](https://www.amazon.comundefined)
+* ASIN: B01LY6BGEK
+* Reference: https://www.amazon.com/dp/B01LY6BGEK
+* [Kindle link](kindle://book?action=open&asin=B01LY6BGEK)
+
+## Highlights
+インバスケットで評価するのは「判断が合っているか、間違っているか」ではなく、判断に行きつくまでのプロセスだからです。 — location: [186](kindle://book?action=open&asin=B01LY6BGEK&location=186) ^ref-17521
+
+---
+例えばあるトラブルが起きたとしましょう。そのトラブルにどのような判断をしたかを評価するのではなく、どんなところに問題点をみつけ、どのような仮説を立てて、どのような情報を集めたのかなどのプロセスを評価していくのです。 — location: [196](kindle://book?action=open&asin=B01LY6BGEK&location=196) ^ref-63848
+
+---
+Ｂの象限は「期限は迫っていないが重要な仕事」で、一般的には教育や仕組み作り、メンテナンスや計画、戦略の策定などの仕事が当てはまり — location: [360](kindle://book?action=open&asin=B01LY6BGEK&location=360) ^ref-41895
+
+---
+●「何をやるか」よりも「何をやらないか」を考える。 ● 全体に影響を与える重要な案件に絞って、深く掘り下げ、高い精度で — location: [370](kindle://book?action=open&asin=B01LY6BGEK&location=370) ^ref-870
+
+---
+「その仕事をしなかったらどのような損失が発生するか」や「その仕事をしなかったら誰に迷惑がかかるのか」など、客観的・定量的に考えることがポイント。 — location: [375](kindle://book?action=open&asin=B01LY6BGEK&location=375) ^ref-6461
+
+---
+特にリーダーや上位職になると、判断をする際に使う情報も、部下の報告など顕在情報が主になってきます。しかし、時には自分自身で情報を取りに行く行動も必要なの — location: [546](kindle://book?action=open&asin=B01LY6BGEK&location=546) ^ref-36173
+
+---
+もう１つは「組み合わせる」 です。 アイデアというものは、まったくない所から作り出すものではなく、あるものを組み合わせて生まれてくることの方が多いの — location: [586](kindle://book?action=open&asin=B01LY6BGEK&location=586) ^ref-16986
+
+---
+これら、創造力を伸ばすポイントは、 アイデアの質よりも量を意識することです。 完全なアイデアなんて初めから存在しませんから……。 — location: [593](kindle://book?action=open&asin=B01LY6BGEK&location=593) ^ref-32391
+
+---
+リーダーになると、自分の手を動かす前に人の手を使うという発想も持たなければなりません。 — location: [640](kindle://book?action=open&asin=B01LY6BGEK&location=640) ^ref-2385
+
+---
+そのためには日々部下や他部署との信頼関係を構築したり、時には根回しすることも重要なの — location: [642](kindle://book?action=open&asin=B01LY6BGEK&location=642) ^ref-25771
+
+---
+「任せる」ことの効果とは また組織活用力で特に抜けやすいのが「任せる」行動です。 「任せる」ことには、部下の有効活用だけでなく、部下を教育する目的も含まれています。 — location: [643](kindle://book?action=open&asin=B01LY6BGEK&location=643) ^ref-47980
+
+---
+ですから、部下に仕事を任せないということは、言い換えれば、部下から成長のチャンスを奪うことでもあるのです。 — location: [646](kindle://book?action=open&asin=B01LY6BGEK&location=646) ^ref-64057
+
+---
+部下の成長のための — location: [648](kindle://book?action=open&asin=B01LY6BGEK&location=648) ^ref-42399
+
+---
+当事者意識とは主体的に物事に取り組んだり、上司や組織から自分がどのような役割を期待されているかを認識している状態を言います。 例えば先日、あるホテルに宿泊した時に枕が低かったので、もう — location: [659](kindle://book?action=open&asin=B01LY6BGEK&location=659) ^ref-8673
+
+---
+良い判断は良いプロセスから生まれ — location: [838](kindle://book?action=open&asin=B01LY6BGEK&location=838) ^ref-20693
+
+---
+これらの主観は完全に取り除くことはできないにしても、抑える方法はあります。 それは、 自信に満ちたその判断の根拠は何かと、問いかけることです。 その根拠が客観的な事実なのか、それとも思いや期待なのかで、良い判断か悪い判断かを分けます。 — location: [862](kindle://book?action=open&asin=B01LY6BGEK&location=862) ^ref-43178
+
+---
+他人に判断を依存するということは、私は生きることを放棄することに値すると思っています。 — location: [943](kindle://book?action=open&asin=B01LY6BGEK&location=943) ^ref-20911
+
+---
+なぜなら、私はいままで多くのリーダーを見てきて、他人の判断に依存してきて幸せになった方を知らないからです。多くの方は後悔をしています。 — location: [945](kindle://book?action=open&asin=B01LY6BGEK&location=945) ^ref-53376
+
+---

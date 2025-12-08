@@ -1,0 +1,24 @@
+---
+kindle-sync:
+  bookId: '32293'
+  title: もっと幸せに働こう　持たざる者に贈る新しい仕事術 (集英社ノンフィクション)
+  author: ＭＢ
+  asin: B07ZGD7B5Y
+  lastAnnotatedDate: Invalid date
+  bookImageUrl: 'https://m.media-amazon.com/images/I/91rLKQhF5UL._SY160.jpg'
+  highlightsCount: 2
+---
+# もっと幸せに働こう　持たざる者に贈る新しい仕事術
+## Metadata
+* Author: [ＭＢ](https://www.amazon.comundefined)
+* ASIN: B07ZGD7B5Y
+* Reference: https://www.amazon.com/dp/B07ZGD7B5Y
+* [Kindle link](kindle://book?action=open&asin=B07ZGD7B5Y)
+
+## Highlights
+「好きなことを仕事にする、とは言っても具体的に何をすればいいのか」と疑問を持たれる人もいるはずです。多くの人はインターネットを使った……ブログやＹｏｕＴｕｂｅなどを連想するでしょう。また、そうした事業を連想するとどうしても「大量に人を集めなければならない」「何か一芸に秀でていなければならない」と考えるかもしれません。 　しかし実際はそこまでハードルは高くありませ — location: [129](kindle://book?action=open&asin=B07ZGD7B5Y&location=129) ^ref-55922
+
+---
+「他人と違う結果を生むには、他人と違う行動をとらなければならない」 「好きなことは何よりもモチベーションが生まれる自分の武器となる」 — location: [178](kindle://book?action=open&asin=B07ZGD7B5Y&location=178) ^ref-40686
+
+---

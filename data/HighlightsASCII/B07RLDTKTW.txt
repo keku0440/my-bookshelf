@@ -1,0 +1,51 @@
+---
+kindle-sync:
+  bookId: '64141'
+  title: やってはいけない不動産投資 (朝日新書)
+  author: 藤田　知也
+  asin: B07RLDTKTW
+  lastAnnotatedDate: Invalid date
+  bookImageUrl: 'https://m.media-amazon.com/images/I/71HeJJp0YVL._SY160.jpg'
+  highlightsCount: 11
+---
+# やってはいけない不動産投資
+## Metadata
+* Author: [藤田　知也](https://www.amazon.comundefined)
+* ASIN: B07RLDTKTW
+* Reference: https://www.amazon.com/dp/B07RLDTKTW
+* [Kindle link](kindle://book?action=open&asin=B07RLDTKTW)
+
+## Highlights
+客が自分で売り地を探し、建築会社にシェアハウスの設計と建築を直接、頼んでいれば、物件価格は数千万円も安くできた、ということだ。そうした手間を省いて業者にお任せするコストが数千万円ではとても割に合わないが、多くの人は周辺相場とそこまで開きがあることに注意を払わなかった。 — location: [380](kindle://book?action=open&asin=B07RLDTKTW&location=380) ^ref-18221
+
+---
+あとから思えば、物件価格が相場と比べて妥当かどうかをよく調べ、想定される家賃や入居率にどれだけ実現性や合理性があるかを突き詰めたうえで、投資を判断すべきだった。 — location: [384](kindle://book?action=open&asin=B07RLDTKTW&location=384) ^ref-3428
+
+---
+しかし、もはや業者の約束など守られないのが当たり前だと考えたほうがいい。 　物件価格を大幅につり上げた結果、収支を無理やりプラスにするには、保証する家賃収入も異様に高く設定しないといけない。結局、客に保証した賃料と実際にＨ社が入居者から受け取る家賃の収支はマイナス（逆ざや）となり、その開きは大きく — location: [453](kindle://book?action=open&asin=B07RLDTKTW&location=453) ^ref-22894
+
+---
+同じ物件に投資するにしても、いつ、どのくらいの相場で買うかで利回りが決まり、投資の成果を大きく変える。 — location: [639](kindle://book?action=open&asin=B07RLDTKTW&location=639) ^ref-26851
+
+---
+月々の収入と銀行への返済額に目を奪われて、物件価格を操作することは気にも留めない。そうして業者の誘いにのっかると、あとで問題が起きたときになって罪悪感にさいなまれることになる。 — location: [752](kindle://book?action=open&asin=B07RLDTKTW&location=752) ^ref-62710
+
+---
+まるで「借金をして投資する」ことが「自分の懐を痛めることなくお金を殖やせる」という錯覚を与えるものだ。 　実際には、多額の借金を組まされ、その返済は、受け取れるかどうかが不確かな家賃収入が頼みの綱となる。家賃が想定を下回るリスクは、業者でも銀行でもなく、借りた客がぜんぶ引き受けるのだが、そうした構図を気にもかけずに「自己資金ゼロ」の誘惑にひっかかる客は多い。 — location: [759](kindle://book?action=open&asin=B07RLDTKTW&location=759) ^ref-54789
+
+---
+仲介手数料は「物件価格×３％＋６万円」というのが上限だと、国土交通省の告示によって定められている。１０００万円の物件なら 36 万円、１億円なら３０６万円が仲介手数料の上限となる。仲介手数料を値引く業者もいるが、煩雑な手続きの「手間賃」として上限の手数料を求められるのが一般的だ。 — location: [826](kindle://book?action=open&asin=B07RLDTKTW&location=826) ^ref-8002
+
+---
+三為契約が業者にとって好都合なのは、おおもとの所有者から物件を買い取る値段（＝仕入れ価格）が、カモとなる最終的な買い手には知られずに済むことだ。 — location: [861](kindle://book?action=open&asin=B07RLDTKTW&location=861) ^ref-10590
+
+---
+「スルガ銀の融資審査も、昔はふつうの銀行と変わらなかったよ。それがだんだん手間を省くようになっていって、審査がユルユルになったんだ。融資対象のエリアも前は都市部しか認めなかったのに、だんだんと郊外へ、そして田舎にも広がっていった」 — location: [892](kindle://book?action=open&asin=B07RLDTKTW&location=892) ^ref-61608
+
+---
+融資の可否を判断する銀行の審査部門では、顧客の勤め先や年収といった属性とともに、自己資金を払うのに十分な貯蓄を持っていることを預金通帳などで示すことも求められる。ここで証拠となる書類が「エビデンス」と呼ばれるものだ。自己資金が３０００万円の計画なら、それを余裕で払えるだけの預金残高のある銀行通帳などが必要になる。 — location: [949](kindle://book?action=open&asin=B07RLDTKTW&location=949) ^ref-13326
+
+---
+年収や貯蓄を偽って銀行をダマす行為は、罪に問われかねない悪質なもので、絶対に加担してはいけない。よくあることだからと同意するのは言語道断。小さなことでも疑問や抵抗を感じたら、必ず立ち止まったり引き返したりする。業者に遠慮して、犯罪者となるリスクを背負うことほどバカらしいことはない。 — location: [1152](kindle://book?action=open&asin=B07RLDTKTW&location=1152) ^ref-18877
+
+---

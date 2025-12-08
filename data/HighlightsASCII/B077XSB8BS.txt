@@ -1,0 +1,36 @@
+---
+kindle-sync:
+  bookId: '2218'
+  title: ネットワークはなぜつながるのか　第２版
+  author: 戸根 勤
+  asin: B077XSB8BS
+  lastAnnotatedDate: Invalid date
+  bookImageUrl: 'https://m.media-amazon.com/images/I/910zNlA35GL._SY160.jpg'
+  highlightsCount: 6
+---
+# ネットワークはなぜつながるのか　第２版
+## Metadata
+* Author: [戸根 勤](https://www.amazon.comundefined)
+* ASIN: B077XSB8BS
+* Reference: https://www.amazon.com/dp/B077XSB8BS
+* [Kindle link](kindle://book?action=open&asin=B077XSB8BS)
+
+## Highlights
+リクエスト・メッセージに書くURIは1つだけと決まっていますから、ファイルは一度に1つずつしか読み出せません。ですから、このように別々にファイルを読み出すわけです。たとえば、1つの文章に画像が3個張り込んであったら、文章ファイルを読み出すリクエストと画像ファイルを読み出すリクエストで、合計4回、リクエスト・メッセージをWebサーバーに送ることになります。 — location: [619](kindle://book?action=open&asin=B077XSB8BS&location=619) ^ref-13912
+
+---
+インターネットや社内のLANはTCP/IPの考え方に基づいて作られているので、そのTCP/IPの基本となる考え方から説明します。TCP/IPは、 図1.8 のように、 サブネット という小さなネットワークをルーター＊24 で接続することによって全体のネットワークが出来上がっていると考えます。ここでいうサブネットというのは、ハブ＊25 に何台かのパソコンが接続されたものと考えればよいでしょう＊26。それを1つの単位と考え、サブネットと呼ぶわけです。そして、それをルーターでつないでいくと、ネットワーク全体ができあがるということです＊27。 — location: [645](kindle://book?action=open&asin=B077XSB8BS&location=645) ^ref-16121
+
+---
+ドメイン名からIPアドレスを調べるとき、ブラウザはSocketライブラリのリゾルバを利用する。 — location: [756](kindle://book?action=open&asin=B077XSB8BS&location=756) ^ref-3788
+
+---
+データ送受信動作は、このように、いくつかのフェーズに分かれています。整理すると次の4つに要約できるでしょう。 　（1）ソケットを作る（ソケット作成フェーズ） 　（2）サーバー側のソケットにパイプをつなぐ（接続フェーズ） 　（3）データを送受信する（送受信フェーズ） 　（4）パイプを外してソケットを抹消する（切断フェーズ） — location: [998](kindle://book?action=open&asin=B077XSB8BS&location=998) ^ref-22746
+
+---
+アプリケーションは、「ディスクリプタ」という番号札のようなものでソケットを識別する。 — location: [1046](kindle://book?action=open&asin=B077XSB8BS&location=1046) ^ref-31361
+
+---
+IPアドレス というのは、ネットワーク上に存在する個々のコンピュータを識別するために、それぞれに異なる値を割り当てたものです＊56。ということは、IPアドレスで特定できるのは、ネットワーク上のどのコンピュータなのかというところまでです。接続動作は相手側のソケットに対して行うものなので、ソケットを特定しなければいけないのですが、IPアドレスではソケットまでは特定できません。電話をかけたとき、「○○さんをお願いしたいのですが」と言って、話す相手を呼び出すような仕掛けが必要なのです。その仕掛けが ポート番号 です。IPアドレスとポート番号の2つを指定することで、どのコンピュータ上の、どのソケットと接続するのかはっきりするわけです。 — location: [1061](kindle://book?action=open&asin=B077XSB8BS&location=1061) ^ref-13154
+
+---

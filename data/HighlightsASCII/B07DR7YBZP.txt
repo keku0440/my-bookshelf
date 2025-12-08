@@ -1,0 +1,93 @@
+---
+kindle-sync:
+  bookId: '22618'
+  title: これからを稼ごう　仮想通貨と未来のお金の話
+  author: 堀江貴文 and 大石哲之
+  asin: B07DR7YBZP
+  lastAnnotatedDate: Invalid date
+  bookImageUrl: 'https://m.media-amazon.com/images/I/81GIArlO0aL._SY160.jpg'
+  highlightsCount: 25
+---
+# これからを稼ごう　仮想通貨と未来のお金の話
+## Metadata
+* Author: [堀江貴文 and 大石哲之](https://www.amazon.comundefined)
+* ASIN: B07DR7YBZP
+* Reference: https://www.amazon.com/dp/B07DR7YBZP
+* [Kindle link](kindle://book?action=open&asin=B07DR7YBZP)
+
+## Highlights
+仮想通貨に対する法定通貨の値付けは激しく変動するが、所持している仮想通貨自体が毀損されるわけではないから、気にする必要はないのだ。 — location: [445](kindle://book?action=open&asin=B07DR7YBZP&location=445) ^ref-49189
+
+---
+総人口に占める働く世代が増え、経済成長することを「人口ボーナス」という。日本では１９６０年代に人口ボーナス期を迎えた。 — location: [495](kindle://book?action=open&asin=B07DR7YBZP&location=495) ^ref-5057
+
+---
+僕はこれからの世界で、こんな牧歌的な投資手法は通用しないと考えている。 — location: [501](kindle://book?action=open&asin=B07DR7YBZP&location=501) ^ref-29631
+
+---
+しかも投資というのは、基本的に先行して行うものだ。実体経済※ が追いついてくる前に投資をするので、やっと実体経済がついてきた頃にはもうピークアウトしている。株価などは、わかりやすい例だろう。 — location: [518](kindle://book?action=open&asin=B07DR7YBZP&location=518) ^ref-28352
+
+---
+世の中には、とにかく儲かりそうな金融商品や、ビッグマネーをある程度、放り込める分野がないかを探している人々が常に存在している。ましてや、この金余りの世の中だ。 — location: [536](kindle://book?action=open&asin=B07DR7YBZP&location=536) ^ref-27267
+
+---
+お金というのは、人の共同幻想の産物なのだ。 　多くの人が、それに価値があると信じれば、それはお金になる。お金になってしまう。 「お金は信用を数値化したものである」 — location: [550](kindle://book?action=open&asin=B07DR7YBZP&location=550) ^ref-29123
+
+---
+ビットコインの取引は、ノードと呼ばれるネットワークの参加者全員が、約 10 分ごとに世界中で起きた「ＡがＢに１ＢＴＣを送った」「ＢがＣに０・５ＢＴＣを送った」といった取引情報を記録し、二重支払いのような不正がないか管理している。 — location: [723](kindle://book?action=open&asin=B07DR7YBZP&location=723) ^ref-65120
+
+---
+カンボジアはリエルという自国通貨を持つが、ほぼすべての商品の値段は米ドルで表示されており、リエルはお釣りで渡されるぐらいだ。長く続いた内戦の記憶は深く、カンボジア国民はまったく自国通貨を信用していない。あるいはハイパーインフレで自国通貨を廃止したジンバブエなんていう国もある。 — location: [897](kindle://book?action=open&asin=B07DR7YBZP&location=897) ^ref-34271
+
+---
+スマートコントラクトは、こうした 契約条件の取り決めや証明・執行の方法までを自動化させるアプリケーションやプログラム と考えてもらえばいい。ごく簡単に言えば、支払いが遅れたら、購入者の口座から販売者の口座に自動的に遅延損害金が移るようなプログラムが組めるということだ。 — location: [1121](kindle://book?action=open&asin=B07DR7YBZP&location=1121) ^ref-23589
+
+---
+など。なおコインの販売には金融庁許可が必要なので、許可の有無を聞くのが簡単な判別法。 — location: [1318](kindle://book?action=open&asin=B07DR7YBZP&location=1318) ^ref-16659
+
+---
+一般の人であれば「面白そう」と思うプロジェクトを応援するぐらいの気持ちで臨むことだろう。 — location: [1329](kindle://book?action=open&asin=B07DR7YBZP&location=1329) ^ref-6769
+
+---
+ＩＣＯの場合、トークンを発行するだけなので、そこに議決権は存在しない。つまり、これはいくら資金調達を行っても、そのプロジェクトが買収されないことを意味している。 — location: [1350](kindle://book?action=open&asin=B07DR7YBZP&location=1350) ^ref-24416
+
+---
+銀行の最大の武器は、ブランド力による「信用」と中央管理による「安全性」だが、ビットコインは、取引相手を必ずしも信用しなくても成立する仕組みを作り上げた。テクノロジーの面だけでいえば、最高峰の安全性も持っている。 — location: [1487](kindle://book?action=open&asin=B07DR7YBZP&location=1487) ^ref-19872
+
+---
+新しい動きが現れた時、大企業が弱い点は、まさにそこにある。 　サラリーマンの人事評価は基本的に減点主義のため、失敗したら評価が下がる。逆に事業化に成功してもキャピタルゲインもないし、給料がほんのちょっと上がるぐらいだ。 　ならば上司が納得する範囲で、無理なく、事故がないよう、やっているアリバイを作るサラリーマンが、自分の地位を脅かすようなリスクを取るわけがないのだ。 　現代社会の抱えている問題点は、まさにここにある。 巨大なエスタブリッシュメント組織と、そこに属している人は、どうしても既得権を守る方向に力が働いてしまう。 — location: [1499](kindle://book?action=open&asin=B07DR7YBZP&location=1499) ^ref-53397
+
+---
+何度でも繰り返そう。規制は決して技術に対抗できない。守る側の方が、遅い。 　だから、僕は新しい方に張るのだ。 — location: [1777](kindle://book?action=open&asin=B07DR7YBZP&location=1777) ^ref-38783
+
+---
+これまでの歴史では、働く対価として、お金は機能してきた。 　間違ってはいないのだけれど、正しいわけでもない。お金の対価を求めて働き続けたせいで、「お金のために働く」「働かないと生活できない」「幸せになれない」という誤った常識が、固定化してしまった。 — location: [2163](kindle://book?action=open&asin=B07DR7YBZP&location=2163) ^ref-42651
+
+---
+重ねて言うが、お金の価値は下がっている。今後も下がっていくだろう。 　そんな社会で、豊かになれる人は、どんな人だろうか？ 　答えはひとつ。 お金との交換ができない独自の価値基準 を持っている人だ。 — location: [2176](kindle://book?action=open&asin=B07DR7YBZP&location=2176) ^ref-45096
+
+---
+その意味で僕は、「社会にとって役に立たないこと」を、どんどんやった方がいいと思う。社会にとって役立つことは、機械に置き換えられるからだ。 — location: [2200](kindle://book?action=open&asin=B07DR7YBZP&location=2200) ^ref-31724
+
+---
+銘柄思考を、持とう。 　役立つかどうかはさておき、あなたという銘柄に、どんな価値があるか？ 　金儲けを考えている時代ではないのだ。 　マーケティング、ブランディングをしっかり見すえ、自分の銘柄をいかに高く保てるか、工夫していこう。 — location: [2211](kindle://book?action=open&asin=B07DR7YBZP&location=2211) ^ref-53945
+
+---
+21 世紀は、 仕事と遊びの境界が溶けてきている時代 だと、僕は考えている。 — location: [2233](kindle://book?action=open&asin=B07DR7YBZP&location=2233) ^ref-64991
+
+---
+人はもっともっと、楽しく仕事して、生きられるはずだ。 　僕自身は、仕事中は笑ったりふざけたりするタイプではないが「楽しいこと、面白いことをやろう」という意識は、常に持っている。 — location: [2258](kindle://book?action=open&asin=B07DR7YBZP&location=2258) ^ref-8872
+
+---
+大切なのは「他人の時間」に生かされるのではなく、「自分の時間」を生きる意識だ。 — location: [2262](kindle://book?action=open&asin=B07DR7YBZP&location=2262) ^ref-63823
+
+---
+ツィッターやメルマガでみんなの話を聞くと、 20 代から年金の心配をしていたり、老後までの人生のロードマップを語りたがったりする人が、まだ多い。正直、驚くばかりだ。 — location: [2265](kindle://book?action=open&asin=B07DR7YBZP&location=2265) ^ref-37797
+
+---
+僕は誰にでも、有用なアイディアや意見を無償で与えようと努めている。 — location: [2312](kindle://book?action=open&asin=B07DR7YBZP&location=2312) ^ref-58257
+
+---
+評価経済社会だろうと通貨主義社会だろうと、動かない者が負けるという真理は変わらないのだ。 　 そんな大きな一歩でなくてもいい。微動でも構わない。 　仕事帰りにひと駅ぶんだけ歩いてみるとか、ジャンクフードをやめてちゃんとした定食屋で食べるとか、年２回歯石クリーニングするとか、ヒゲはきちんと剃るとか、その程度の動き出しでいい。今ならファッションバイヤーで有名なＭＢさんのメルマガ読者になるのは、お薦めだ。 — location: [2331](kindle://book?action=open&asin=B07DR7YBZP&location=2331) ^ref-50967
+
+---

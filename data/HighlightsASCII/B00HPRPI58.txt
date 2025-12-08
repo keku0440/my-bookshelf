@@ -1,0 +1,96 @@
+---
+kindle-sync:
+  bookId: '25461'
+  title: 宇宙飛行士に学ぶ心の鍛え方 (マイナビ新書)
+  author: 古川 聡
+  asin: B00HPRPI58
+  lastAnnotatedDate: Invalid date
+  bookImageUrl: 'https://m.media-amazon.com/images/I/81-7-Kw1OFL._SY160.jpg'
+  highlightsCount: 26
+---
+# 宇宙飛行士に学ぶ心の鍛え方
+## Metadata
+* Author: [古川 聡](https://www.amazon.comundefined)
+* ASIN: B00HPRPI58
+* Reference: https://www.amazon.com/dp/B00HPRPI58
+* [Kindle link](kindle://book?action=open&asin=B00HPRPI58)
+
+## Highlights
+孤独には、物理的な孤独と心理的な孤独がありますが、物理的な孤独はどうにもならない面があります。 — location: [405](kindle://book?action=open&asin=B00HPRPI58&location=405) ^ref-33509
+
+---
+アダムがまだこの世に独りだったころに味わったであろう孤独を、アポロの司令船パイロットは味わったのだ」 — location: [411](kindle://book?action=open&asin=B00HPRPI58&location=411) ^ref-32223
+
+---
+せよ、現在も 宇宙では地上から切り離され、孤独を感じることがストレスになる — location: [419](kindle://book?action=open&asin=B00HPRPI58&location=419) ^ref-57960
+
+---
+文化が異なり国籍も違う宇宙飛行士たちが閉鎖的な空間で長時間過ごすことに対しても、十分な経験がないころは様々なあつれきがあったと聞きます。 — location: [423](kindle://book?action=open&asin=B00HPRPI58&location=423) ^ref-27001
+
+---
+心理的な孤独は、現在では比較的対処しやすいものになっています。 技術の進歩のおかげで、現在の国際宇宙ステーションでは週に１回は家族と — location: [428](kindle://book?action=open&asin=B00HPRPI58&location=428) ^ref-16917
+
+---
+テレビ電話で話せますし、ＩＰフォンで衛星回線が使えるときは電話もかけられます（ただし、電話は発信専用で、宇宙からかけることしかできません）。 また、電子メールも使えました。 — location: [430](kindle://book?action=open&asin=B00HPRPI58&location=430) ^ref-27278
+
+---
+ツイッター（ Twitter）もできますが、とにかく回線スピードが遅いので、その点はストレスだったかもしれません（笑）。 — location: [438](kindle://book?action=open&asin=B00HPRPI58&location=438) ^ref-19488
+
+---
+物理的に隔離されていても、コミュニケーションが確保できていればストレスは感じにくい、 — location: [450](kindle://book?action=open&asin=B00HPRPI58&location=450) ^ref-52872
+
+---
+引っ越しや進学・就職などで 環境が大きく変わった当初は、期待と同時に慣れた環境から離れる孤独を感じることもありますが、積極的にコミュニケーションを取っていくことで早く乗り越えることができる のでは — location: [451](kindle://book?action=open&asin=B00HPRPI58&location=451) ^ref-44425
+
+---
+あり、「宇宙に行ってすぐのころは分からないことだらけだから、とにかく何でも聞いた方がいいよ」というアドバイスが役に立ちました。これは「分からない」ということでストレスを溜めない ことにもつながります。 — location: [462](kindle://book?action=open&asin=B00HPRPI58&location=462) ^ref-10145
+
+---
+た。 手順書だけでは分からない現場を知るには、やはり経験者に聞くのが一番 です。 — location: [474](kindle://book?action=open&asin=B00HPRPI58&location=474) ^ref-53367
+
+---
+そして、 積極的に人に聞くということは、そのまま、積極的にコミュニケーションを取って早くなじむということにもつながります。 — location: [480](kindle://book?action=open&asin=B00HPRPI58&location=480) ^ref-55127
+
+---
+「人間関係からくるストレスへの心の鍛え方」のまとめ ● 大事なことは、意見に対して感謝の言葉を伝えること ●「人」と「意見」を分けて考える ●「遠慮」で自分を抑えるのではなく、「配慮」しながら意見を述べる ● 必要なことは、相手を知ること ● コミュニケーション・ツールを活用することで、孤独を乗り越える — location: [533](kindle://book?action=open&asin=B00HPRPI58&location=533) ^ref-14634
+
+---
+予想がつかない状況は、人を不安にさせるものです。そういうとき、私は複数の視点で物事を見るように努めています。 — location: [829](kindle://book?action=open&asin=B00HPRPI58&location=829) ^ref-46259
+
+---
+の「自分の立場で」考えることをいったんやめ、逆に「自分が試験官だったらどんな能力を問うだろうか」と「相手の立場で」考えてみました。 — location: [861](kindle://book?action=open&asin=B00HPRPI58&location=861) ^ref-8261
+
+---
+「割り切る」そして「できることをやる」 しかし、 成果が見えない中で続けるというストレスに耐えるのは、簡単なことではありません。宇宙飛行士の訓練ではストレスに耐えられるかどうかというよりも、仕事でそれを使うわけですから、そこは割り切ってやるしかありません。そうではない方はどうすればよいか。 単純に言えば、「割り切る」そして「できることをやる」 — location: [912](kindle://book?action=open&asin=B00HPRPI58&location=912) ^ref-12805
+
+---
+でも、「小さな成果」を積極的に見出すようにすると、物事を続けるストレスを軽減し、結果的に成果を手に入れることができます。 — location: [935](kindle://book?action=open&asin=B00HPRPI58&location=935) ^ref-3136
+
+---
+長期的にモチベーションを保つためには、そもそもなぜそれをやるのか、という目的意識が必要 です。 — location: [941](kindle://book?action=open&asin=B00HPRPI58&location=941) ^ref-45882
+
+---
+理由を曖昧にしたままでがんばり続けるにはおのずと限界があります。 — location: [947](kindle://book?action=open&asin=B00HPRPI58&location=947) ^ref-65039
+
+---
+にも、 何のためにがんばっているのか分からなくなったときには、立ち止まって考える時間が必要 です。 宇宙飛行士になるような人は、何でも努力でやり遂げる — location: [949](kindle://book?action=open&asin=B00HPRPI58&location=949) ^ref-33101
+
+---
+長期的に何かを続けるためには、やはり自分がやりたいことであるとか、好きなことであることが重要です。 あまり好きではないことや、強制されたことを長く続けるのは難しい 面があります。 — location: [979](kindle://book?action=open&asin=B00HPRPI58&location=979) ^ref-60636
+
+---
+先が見えないときはプロセスを楽しむ — location: [999](kindle://book?action=open&asin=B00HPRPI58&location=999) ^ref-49276
+
+---
+スペースシャトル・コロンビア号の事故は、私にとって先輩宇宙飛行士を失った痛ましいものです。そして私自身の宇宙飛行も一時先が見えなくなったという意味でも、大きな影響を受けた出来事でした。 — location: [1000](kindle://book?action=open&asin=B00HPRPI58&location=1000) ^ref-24704
+
+---
+１９９９年に選抜された私たち３名の宇宙飛行士は、順調に行けば選抜から５年程度で宇宙に行けると言われていました。しかし、スペースシャトルの再開の目処が立たない状態では、宇宙に行けるかすら分かりません。さすがに落ち込みました。 — location: [1011](kindle://book?action=open&asin=B00HPRPI58&location=1011) ^ref-15329
+
+---
+自分自身の見通しが分からなくなったとき、「自分にコントロールできることを行うしかない」 と思わせてくれました。自分にできることはロシアでの訓練とロシア語の勉強です。宇宙で仕事をするという目的のため、私にできることを続けました。 — location: [1018](kindle://book?action=open&asin=B00HPRPI58&location=1018) ^ref-1745
+
+---
+は、 自分がコントロールできることに精一杯取り組み、そのプロセスを楽しみながら続けていくことができれば、その後の糧となることを実感できます。 — location: [1044](kindle://book?action=open&asin=B00HPRPI58&location=1044) ^ref-58927
+
+---

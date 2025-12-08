@@ -1,0 +1,273 @@
+---
+kindle-sync:
+  bookId: '1842'
+  title: 年間100万円の配当金が入ってくる最高の株式投資
+  author: 配当太郎
+  asin: B0BTGPTKKP
+  lastAnnotatedDate: Invalid date
+  bookImageUrl: 'https://m.media-amazon.com/images/I/814ZAYYrfHL._SY160.jpg'
+  highlightsCount: 85
+---
+# 年間100万円の配当金が入ってくる最高の株式投資
+## Metadata
+* Author: [配当太郎](https://www.amazon.comundefined)
+* ASIN: B0BTGPTKKP
+* Reference: https://www.amazon.com/dp/B0BTGPTKKP
+* [Kindle link](kindle://book?action=open&asin=B0BTGPTKKP)
+
+## Highlights
+継続的に株を買い進めて「持ち株数」を増やすことと、企業が「増配」してくれること。 　この両輪が、配当株投資を押し進めるエンジンです。 — location: [72](kindle://book?action=open&asin=B0BTGPTKKP&location=72) ^ref-39900
+
+---
+を「配当金ダルマ」 — location: [86](kindle://book?action=open&asin=B0BTGPTKKP&location=86) ^ref-65300
+
+---
+「キャピタルゲイン」と「インカムゲイン」 です。 　キャピタルゲインは、購入した株が買った時よりも高値になった時に売却して利益を得る……という投資法です。 — location: [242](kindle://book?action=open&asin=B0BTGPTKKP&location=242) ^ref-28360
+
+---
+配当株投資の注目すべき６つの魅力とは？ — location: [257](kindle://book?action=open&asin=B0BTGPTKKP&location=257) ^ref-16422
+
+---
+魅力 ①】企業が利益を上げ続ければ、半永久的に配当金が得られる — location: [261](kindle://book?action=open&asin=B0BTGPTKKP&location=261) ^ref-50630
+
+---
+【魅力 ②】企業の利益が上がると、配当金も増える — location: [266](kindle://book?action=open&asin=B0BTGPTKKP&location=266) ^ref-30707
+
+---
+魅力 ③】株価や市場の動向に影響されない — location: [272](kindle://book?action=open&asin=B0BTGPTKKP&location=272) ^ref-24015
+
+---
+【魅力 ④】給料以外に安定した収入を確保できる — location: [278](kindle://book?action=open&asin=B0BTGPTKKP&location=278) ^ref-39670
+
+---
+【魅力 ⑤】配当金は自由に活用することが可能 — location: [284](kindle://book?action=open&asin=B0BTGPTKKP&location=284) ^ref-46761
+
+---
+私は配当株投資で得られる配当金を「資本収入」 と解釈して、毎日の仕事によって得られる「労働収入」（給料）とは分けて考えています。 　労働収入は自分や家族の現在と未来の生活のために必要なお金ですが、資本収入をどのように遣うかは、すべて私が自由に決めることができます。 — location: [285](kindle://book?action=open&asin=B0BTGPTKKP&location=285) ^ref-30363
+
+---
+魅力 ⑥】配当金は家族や子孫に引き継ぐことができる — location: [294](kindle://book?action=open&asin=B0BTGPTKKP&location=294) ^ref-30370
+
+---
+権利収入」（自分が保有している権利に基づいて得られる収入）ですから、株の所有者が亡くなったとしても、妻や子供がその権利を引き継ぐことができます。 　 家族や子孫の今後の生活を支えるための、大きな安心材料 となるのです。 — location: [295](kindle://book?action=open&asin=B0BTGPTKKP&location=295) ^ref-41675
+
+---
+配当株投資で成果を実感するためには、 最低でも 10 年くらいの時間軸で取り組む ことが求められます。 — location: [355](kindle://book?action=open&asin=B0BTGPTKKP&location=355) ^ref-18071
+
+---
+配当金が入ってきたり、増配によって配当金が増えるなど、その時々でつねに楽しみが待っています から、実際に始めてみれば、その楽しさが理解できます。 — location: [360](kindle://book?action=open&asin=B0BTGPTKKP&location=360) ^ref-34398
+
+---
+企業としては、ある程度の株価を維持して、時価総額を高めておかなければ、 簡単に外資系企業などに買収されてしまう危険性がある のです。 — location: [428](kindle://book?action=open&asin=B0BTGPTKKP&location=428) ^ref-60489
+
+---
+配当株投資の一番のリスクは、途中でやめてしまうこと — location: [440](kindle://book?action=open&asin=B0BTGPTKKP&location=440) ^ref-10893
+
+---
+この章では、配当株投資の 効率的な進め方 について、詳しくお伝えしていきます。 　日本には現在、１００万社を超える株式企業が存在します。 — location: [485](kindle://book?action=open&asin=B0BTGPTKKP&location=485) ^ref-64998
+
+---
+私の経験では、「１年間の配当金が１００万円」 に到達したステージが、最も効率がよく、配当株投資の醍醐味を満喫できるステージだと考えています。 　私はこれを「配当金１００万円の破壊力」 と呼んで、ツイッターでも大事なポイントとして発信しています。 — location: [519](kindle://book?action=open&asin=B0BTGPTKKP&location=519) ^ref-10147
+
+---
+年間の配当金が１２０万円に到達すれば、毎月 10 万円の「お小遣い」を自由に遣うことができる という計算が成り立つので、さらにモチベーションがアップします。 　給料の他に毎月 10 万円の安定的な収入があるというのは、何とも心強く、大きな喜びを感じることができると思います。 — location: [538](kindle://book?action=open&asin=B0BTGPTKKP&location=538) ^ref-59447
+
+---
+は、「配当株投資とは、小さく産んで大きく育てるものだ」 ということを理解しておく必要があります。 — location: [556](kindle://book?action=open&asin=B0BTGPTKKP&location=556) ^ref-58661
+
+---
+ある程度はお金の余裕があって、「どのように始めるか？」を迷っているならば、配当金を出している大手企業の中から数社ほど選んで、「初期投資１００万円」から始める ことをおすすめします。 — location: [564](kindle://book?action=open&asin=B0BTGPTKKP&location=564) ^ref-20118
+
+---
+早く目標に到達するためには、株を細かく買うのも有効 — location: [620](kindle://book?action=open&asin=B0BTGPTKKP&location=620) ^ref-7012
+
+---
+目標に到達するまでは、ガンガンにアクセルを踏み続ける — location: [630](kindle://book?action=open&asin=B0BTGPTKKP&location=630) ^ref-27099
+
+---
+少しでもお金に余裕があったら、 最低限度の生活防衛資金の他は、すべて株の購入に充てるくらいの気構え で臨む必要があります。 　本気で配当株投資をやり遂げようと思うのであれば、可能な限り、お金を投資に振り分けることで、それだけ早く目標にたどり着くことができます。 — location: [634](kindle://book?action=open&asin=B0BTGPTKKP&location=634) ^ref-5596
+
+---
+ＳＴＥＰ 03 　投資金額が１０００万円を超えると、成長スピードが急加速する — location: [667](kindle://book?action=open&asin=B0BTGPTKKP&location=667) ^ref-43306
+
+---
+給料などの労働収入からの「追加投資」、手に入れた配当金からの「再投資」、企業による「増配」…… — location: [669](kindle://book?action=open&asin=B0BTGPTKKP&location=669) ^ref-59059
+
+---
+投資金額が１０００万円を超えると、企業からの 配当金は 30 万円から 40 万円 に達していると思います。 　毎年その金額が得られるのですから、これをゴールと考えても十分すぎるほど魅力的な金額ですが、さらに「追加投資」、「再投資」、「増配」を続けることができれば、これまでとはまったく違う風景に出会うことになります。 　配当金ダルマの成長スピードが変速ギアを入れたように一気に加速して、見る見るうちに大きくなっていくのです。 — location: [672](kindle://book?action=open&asin=B0BTGPTKKP&location=672) ^ref-34678
+
+---
+●「１００万円」→「１０００万円」=１００万円を「 10 倍」にする必要がある ●「１０００万円」→「２０００万円」=１０００万円を「２倍」にするだけ ●「２０００万円」→「３０００万円」=２０００万円を「１・５倍」にするだけで済む — location: [678](kindle://book?action=open&asin=B0BTGPTKKP&location=678) ^ref-18300
+
+---
+までを「 10」 とすれば、それを２０００万円に増やすためには５分の１の「２」 で済みます。 — location: [684](kindle://book?action=open&asin=B0BTGPTKKP&location=684) ^ref-51995
+
+---
+私の経験でいえば、５００万円を超えたあたりでは「まだまだ遠いな」と思っていたのですが、１０００万円を突破すると「あれ、あれ？」と思っているうちに、気がついたら２０００万円に到達していたという感じです。 　市場に恵まれたり、企業の増配が続いたこともありますが、「ここからは早いな」 というのが実感です。 　この１０００万円超えの第３ステップが、その後の資産形成の加速度を上げていくための大きなターニングポイントだと思っています。 — location: [685](kindle://book?action=open&asin=B0BTGPTKKP&location=685) ^ref-29103
+
+---
+この段階までくれば、無理して労働収入から「追加投資」をする必要はありません。 　追加投資をすれば、それだけ成長スピードが速くなりますが、 配当金からの「再投資」と企業の「増配」という２つのエンジン が暖まっているため、十分な威力を発揮してくれるからです。 — location: [695](kindle://book?action=open&asin=B0BTGPTKKP&location=695) ^ref-62417
+
+---
+第３ステップで保有する株は５銘柄くらいが管理しやすい 　第３ステップに入って、投資総額が１０００万円を超えた段階では、あまり多くの企業の株を所有するのではなく、５つくらいの銘柄に絞って持っておくのがいいと思います。 — location: [712](kindle://book?action=open&asin=B0BTGPTKKP&location=712) ^ref-52745
+
+---
+具体的な銘柄は、後ほど詳しくお伝えしますが、「金融・銀行」、「商社」、「保険」、「通信」 など、 — location: [715](kindle://book?action=open&asin=B0BTGPTKKP&location=715) ^ref-50676
+
+---
+大事なポイントは、 銘柄数を増やすのではなく、それぞれの業種から選んだ企業の持ち株数を増やしていく ことです。 — location: [720](kindle://book?action=open&asin=B0BTGPTKKP&location=720) ^ref-55135
+
+---
+株の管理の問題には、２つの種類があると思っています。 　ひとつは、配当株投資を続けていく上での「意識」の管理 であり、もうひとつは株そのものの「ポートフォリオ」の管理 です。 — location: [724](kindle://book?action=open&asin=B0BTGPTKKP&location=724) ^ref-40401
+
+---
+私の場合でいえば、ウェブサイトの『 株 探』などで、３カ月に１回のペースで発表される「決算短信」 に目を通して、「投資先の企業が今どうなっているか？」を知るようにしています。 — location: [741](kindle://book?action=open&asin=B0BTGPTKKP&location=741) ^ref-28807
+
+---
+① 企業の予想した通りに「売上高」は上がっているか？ ②「営業利益」は伸びているか？ — location: [746](kindle://book?action=open&asin=B0BTGPTKKP&location=746) ^ref-35875
+
+---
+③「純利益」（利益から経費や税金を引いた金額）は出ているか？ ④「１株当たり利益」（ＥＰＳ）は出ているか？ — location: [747](kindle://book?action=open&asin=B0BTGPTKKP&location=747) ^ref-48208
+
+---
+すでに１０００万円持つ人は、どのように投資を進めるべきか？ 　ここからは少し特殊なケースになるかもしれませんが、「すでに手元に１０００万円の現金を持っている人は、どのように配当株投資を進めればいいのか？」について、私の考えをお伝えしておこうと思います。 — location: [761](kindle://book?action=open&asin=B0BTGPTKKP&location=761) ^ref-47840
+
+---
+ポイントは「追加投入」「再投資」「増配」 　配当金ダルマを大きく成長させるためには、「増配率」を高めていく ことが重要です。 　増配率とは、前年と比較して、今年の配当金が「どのくらい増えたか？」という割合を示した数字です。 — location: [783](kindle://book?action=open&asin=B0BTGPTKKP&location=783) ^ref-63341
+
+---
+配当金ダルマの着実な成長を目指すならば、「増配率10％」を目標にして、それを維持するための工夫を続けていくことが、最も現実的な目安になります。 — location: [785](kindle://book?action=open&asin=B0BTGPTKKP&location=785) ^ref-16702
+
+---
+私たち一般投資家は、 ２つの「自助努力」によって、増配率を高める ことができます。 　ひとつは、給料などの労働収入の中から 追加資金を投入 すること。もうひとつは、手に入れた 配当金の一部や全額を再投入 することです。 　新たに株を買って、持ち株数を増やしていけば、受け取る配当金を増やすこと — location: [789](kindle://book?action=open&asin=B0BTGPTKKP&location=789) ^ref-37871
+
+---
+需要と供給のバランスによって、株価が大きく下がった時は買えばいいと思いますが、配当株投資では、下がったから買うのではなく、別に高かろうが安かろうが、自分が買える時にしっかりと買って、株数を増やしていくことが大切です。 　現在の株価がこういう状況だから買うとか、買わないという判断をする必要はありません。 — location: [819](kindle://book?action=open&asin=B0BTGPTKKP&location=819) ^ref-58657
+
+---
+株と不動産は「売る」ものではなく「増やす」もの — location: [828](kindle://book?action=open&asin=B0BTGPTKKP&location=828) ^ref-29894
+
+---
+株式投資の世界では、これを「 恩 株」（投資元本を回収済みの株）と呼びますが、元本を回収して、あとはその恩恵を受け続けるだけ……の株を、わざわざ手放す必要はありませんし、そのつもりもないのです。 — location: [838](kindle://book?action=open&asin=B0BTGPTKKP&location=838) ^ref-56815
+
+---
+まずは株を買って、自分なりの「価格の軸」を持つ 　これから株を買い続けていくためには、実際に株を買ってみて、その銘柄に対する自分なりの「価格の軸」 を持つことが重要です。 「価格の軸」というのは、株価の変動に惑わされないための、自分なりの判断基準を身につけるということです。 — location: [857](kindle://book?action=open&asin=B0BTGPTKKP&location=857) ^ref-30232
+
+---
+自分が買った時よりも株価が１～２割下がっていれば、「今は積極的に買う時だな」 と、すぐに判断できます。 　それが１～２割上がっている状況であれば、「今はもう少し様子を見るべきだな」 と考えることができます。 — location: [866](kindle://book?action=open&asin=B0BTGPTKKP&location=866) ^ref-7558
+
+---
+が、本来、 株は自分の代で売らなければいけないものではありません。 — location: [884](kindle://book?action=open&asin=B0BTGPTKKP&location=884) ^ref-65290
+
+---
+元々は「株券」（２００９年に廃止）というものがあって、株は遺産や財産として子や孫に引き継ぐことが普通でしたから、私が特別に突飛な発想をしているわけではないのです。 　配当株投資とは、株を売らず、長く持ち続ける「長期投資」であるだけでなく、末永く孫子の代まで持ち続けることができる「永続投資」でもあるということです。 — location: [885](kindle://book?action=open&asin=B0BTGPTKKP&location=885) ^ref-53689
+
+---
+ある程度の資産が増えるまでは、株価の動向はあまり気にせずに、自分が買える状況にあるならば 躊躇 なく買う……というクセを身につける — location: [897](kindle://book?action=open&asin=B0BTGPTKKP&location=897) ^ref-15470
+
+---
+株価が下がっていたら、すぐに買う。 　横ばいならば、迷わず買う。 　高値になっていても、勇気を出して買う。 — location: [901](kindle://book?action=open&asin=B0BTGPTKKP&location=901) ^ref-20211
+
+---
+株式投資の世界には「タイミング投資」 という方法論があります。 　株価が大きく動くタイミングを狙って、ピンポイントで利益を上げる……という投資法ですが、私はこれを「運頼み」の当てにならない投資法 だと見ています。 　タイミング投資で利益を得たというのは、たまたまタイミングが合っただけの話で、そのタイミングを狙った結果ではありませ — location: [909](kindle://book?action=open&asin=B0BTGPTKKP&location=909) ^ref-59878
+
+---
+運を味方にできるのは、実はタイミング投資をやっていない人 だと考えます。 　どんなタイミングでも躊躇なく株を買えるのは、長期間にわたって継続的に株を買い続けてきた人たちです。 — location: [914](kindle://book?action=open&asin=B0BTGPTKKP&location=914) ^ref-27628
+
+---
+配当株投資のいいところは、稼ぐチカラがあって、そのシステムができ上がっている企業の株を買って持っていれば、その企業の優秀な社員の人たちが自分のために一生懸命に働いて、配当金を出してくれることです。 　人材やお金、設備などがすべて整っている有力企業の株を買うだけですから、そこで汗水垂らして働く必要はありません。 — location: [933](kindle://book?action=open&asin=B0BTGPTKKP&location=933) ^ref-5475
+
+---
+基本的には誰でもすぐに始めることができます。 — location: [943](kindle://book?action=open&asin=B0BTGPTKKP&location=943) ^ref-62931
+
+---
+大切なのは、 配当金ダルマが大きく成長するまで、淡々と株を買い進めながら、ゆったりと構えて、成果が出るのを待つ ことです。 — location: [964](kindle://book?action=open&asin=B0BTGPTKKP&location=964) ^ref-36837
+
+---
+配当金コラム 03 「インデックス投資」と「配当株投資」の違い 「木」を育てるか、「果実」を実らせるか — location: [983](kindle://book?action=open&asin=B0BTGPTKKP&location=983) ^ref-38953
+
+---
+私は、配当株投資は配当金という「果実」を実らせていくためのもので、インデックス投資はその果実を実らせてくれる「木」（企業）を太くて立派に育てていくもの……というイメージを持っています。 — location: [996](kindle://book?action=open&asin=B0BTGPTKKP&location=996) ^ref-29650
+
+---
+障壁」が高い業種の中から投資先企業を選ぶ — location: [1001](kindle://book?action=open&asin=B0BTGPTKKP&location=1001) ^ref-25495
+
+---
+参入障壁には、大きく分けて３つの要因があります。 ・既存企業に優位性（規模の経済性、ブランド力、技術力）がある ・法律的な規制がある ・著しく商品の差別化が図られている — location: [1009](kindle://book?action=open&asin=B0BTGPTKKP&location=1009) ^ref-19095
+
+---
+こうした参入障壁が高い業界の代表格は、次の４業種と考えています。 ①「銀行・金融」 ②「商社」 ③「保険」 ④「通信キャリア」 — location: [1013](kindle://book?action=open&asin=B0BTGPTKKP&location=1013) ^ref-49699
+
+---
+「３割」以上のシェアを持つ企業は投資先の候補になる — location: [1048](kindle://book?action=open&asin=B0BTGPTKKP&location=1048) ^ref-16854
+
+---
+利益率が高い「ストック型ビジネス」の企業を選ぶ 　ここに名前を挙げた企業には、ひとつの共通点があります。 「銀行・金融」、「保険」、「通信キャリア」というのは、すべて「ストック収入」の業態 であるということです。 — location: [1058](kindle://book?action=open&asin=B0BTGPTKKP&location=1058) ^ref-51476
+
+---
+ここで大型株を選ぶ際の基準を整理しておきます。 【基準 ①】「参入障壁」が高い業種から選ぶ 【基準 ②】業界の第１位と第２位の企業を選ぶ 【基準 ③】「３割」以上のシェアを持つ企業を選ぶ 【基準 ④】「ストック型ビジネス」の企業を選ぶ — location: [1095](kindle://book?action=open&asin=B0BTGPTKKP&location=1095) ^ref-38136
+
+---
+ポイント ③】毎日の生活の中から気になる企業を探し出す 　日常生活の中にも、面白い投資先を見つけるヒントがあります。 　ゴルフでも洋服でも、何でもいいのですが、自分の好きなものがあれば、そこから手がかりを見つけることができます。 「最近、コレが人気を集め始めているようだな」→「どこの会社が作っているのだろう？」→「この会社、上場しているのかな？」→「上場はしているな。株価はいくらだろう？」→「まだ、こんなに安いのか!?」→「これから、もっと上がりそうだな」→「それじゃ、今のうちに買っておこうか」。 — location: [1202](kindle://book?action=open&asin=B0BTGPTKKP&location=1202) ^ref-36905
+
+---
+気になる企業の株を買う際の２つの注意点 — location: [1216](kindle://book?action=open&asin=B0BTGPTKKP&location=1216) ^ref-40466
+
+---
+ひとつは 購入のタイミング の問題、もうひとつは 株価の動向 です 　ニッチな強みを持った企業や、成長が見込まれる企業の株を買う場合は、メディアなどで取り上げられると、一気に株価が上がりますから、「メディアに紹介されたら、もう手遅れだな」と考える必要があります。 — location: [1218](kindle://book?action=open&asin=B0BTGPTKKP&location=1218) ^ref-44207
+
+---
+大型株で年10万円の配当金を得る方法 迷わず「王道」の豪華ラインナップを揃える — location: [1234](kindle://book?action=open&asin=B0BTGPTKKP&location=1234) ^ref-34794
+
+---
+１年間に10万円の配当金を手に入れるためには、その時の株価水準次第ですが、約300万円ほどの投資費用をみておく必要 が — location: [1239](kindle://book?action=open&asin=B0BTGPTKKP&location=1239) ^ref-23052
+
+---
+●三菱ＵＦＪ　６００株 　●三井住友　　１００ 株 　●三菱商事　　１００ 株 　●伊藤忠商事　１００ 株 　●ＮＴＴ　　　１００ 株 　●ＫＤＤＩ　　１００ 株 — location: [1242](kindle://book?action=open&asin=B0BTGPTKKP&location=1242) ^ref-22459
+
+---
+【手順 ①】１株当たり利益を「過去」に 遡って調べることで、その企業がどれだけ成長しているか……を確認する。 【手順 ②】売上げに対して、「営業利益率」がどのくらいなのか……を確認する。 【手順 ③】その営業利益率は、「競合他社」と比べてどうなのか……を比較する。 — location: [1286](kindle://book?action=open&asin=B0BTGPTKKP&location=1286) ^ref-43117
+
+---
+【手順 ④】株価を見て、今どのくらい買われているのかを知ることで、その株価がどの程度、１株当たり利益の将来性を見越しているのかを確認する。 【手順 ⑤】競合他社の「株価収益率」と比較して、その企業が突出して稼いでいるのか、横並びなのか、あるいは遅れを取っているのかを判断する。 「株価収益率」とは、「株価が１株当たりの純利益の何倍になっているのか？」を見ることによって、会社の収益力（稼ぐチカラ）を知るための指標です。 　１株当たり利益と株価を組み合わせることで、「１株当たりの当期純利益の何倍で、株が買われているのか？」 を判断することができるのです。 　その計算式は、次のようになります。 　「株価収益率」（ＰＥＲ）＝「株価」 ÷「１株当たり利益」 — location: [1296](kindle://book?action=open&asin=B0BTGPTKKP&location=1296) ^ref-19641
+
+---
+「割高だから買わない」わけではない 　配当株投資は株を手放すことを前提としていませんから、基本的に株価を意識することはありませんが、必要以上に割高な株を買うと、 不測の事態が起こってどうしても株を売らなければいけない状況になった時などに、株価の下落リスクに直面する ことになります。 — location: [1383](kindle://book?action=open&asin=B0BTGPTKKP&location=1383) ^ref-58517
+
+---
+私は「買った後に１株当たり利益が上がれば、基本的には株価収益率は低くなる」 と考えているのです。 — location: [1392](kindle://book?action=open&asin=B0BTGPTKKP&location=1392) ^ref-60357
+
+---
+日本企業の配当性向は、 一般的に 30 ～ 40％前後 ですが、 — location: [1427](kindle://book?action=open&asin=B0BTGPTKKP&location=1427) ^ref-34393
+
+---
+【視点 ⑤】地元に特化した「稼ぐチカラ」のある企業を探す — location: [1495](kindle://book?action=open&asin=B0BTGPTKKP&location=1495) ^ref-56677
+
+---
+① たばこ製造の独占権が認められており、参入障壁が高い ② 稼ぐチカラのある企業で、利益率が高い ③ 海外に主力を置いており、売上げの約６割は海外事業 ④ たばこ関連企業では世界第３位の規模 　日本国内のたばこ消費量は急激に減少していますが、現在のマーケットはロシアやアジア諸国を中心とした世界中に広がっており、５年や 10 — location: [1530](kindle://book?action=open&asin=B0BTGPTKKP&location=1530) ^ref-32830
+
+---
+配当利回り「２％」を基準に企業をチェックする 　情報サイトなどで新たな有望株を探すためには、配当利回りが「２％」くらいの企業に注目するのが有効な方法だと思います。 — location: [1583](kindle://book?action=open&asin=B0BTGPTKKP&location=1583) ^ref-22443
+
+---
+①「１株当たり利益」はどう推移しているか？ ②「増配率」は上昇しているのか？ ③「配当性向」はどの水準にあるか？ 　私はこの３つのチェックポイントが、ここでの「王道」だと考えています。 — location: [1628](kindle://book?action=open&asin=B0BTGPTKKP&location=1628) ^ref-44727
+
+---
+配当性向が低すぎるのは魅力的でないとしても、あまり高すぎても、将来に向けての増配の可能性が減ってしまいます。 　一般的には 30％～ 40％程度が多いのが現状ですから、 この水準を一応の目安 と考えてもいいかもしれません。 — location: [1635](kindle://book?action=open&asin=B0BTGPTKKP&location=1635) ^ref-53957
+
+---
+こうしたデータが確認できたら、「そもそも論」的なことになりますが、ウェブサイトの「投資家情報」などから、その企業の「還元姿勢」を確認します。 　シンプルなことですが、ここが意外に重要なポイントです。 「弊社は株主に対して、配当金を還元しています」 　こうした文言をホームページに掲載しているかどうかは、必ずチェックすべき項目です。 — location: [1639](kindle://book?action=open&asin=B0BTGPTKKP&location=1639) ^ref-6979
+
+---
+企業が発表している「中期経営計画」を確認する 　上場企業は自らの経営ビジョンを実現するために、大きく３つの経営計画を発表しています。 　その年ごとに作成される「短期経営計画」、３～５年後を見据えた「中期経営計画」、 10 年後をまとめた「長期経営計画」がそれですが、「中期経営計画」を見れば、この先、３年くらいの配当予想を確認する ことができます。 　ほとんどの企業が、「中期経営計画」の中で「弊社はこのように株主還元をしていきます」と自社の還元姿勢を明確に打ち出しています。 　ここで株主還元に触れていない場合は、増配の可能性だけでなく、配当金もナシということも考えられますから、必ずチェックする必要があります。 — location: [1645](kindle://book?action=open&asin=B0BTGPTKKP&location=1645) ^ref-25284
+
+---
+①「１株当たり利益」（円）＝「当期純利益」 ÷「発行済株式総数」 ②「配当性向」（％）＝「１株当たり年間配当金」 ÷「１株当たり当期純利益」×１００ ③「配当利回り」（％）＝「１株当たり年間配当金」 ÷「１株の購入価額」（株価）×１００ — location: [1670](kindle://book?action=open&asin=B0BTGPTKKP&location=1670) ^ref-17988
+
+---
+今度は「株価」が反映された代わりに、「１株当たり利益」が抜け落ちています。 　配当株投資で利益を得ていくためには、「１株当たり利益」と「配当性向」、「株価」という３つの観点から「株のチカラ」を判断することが重要です。 — location: [1677](kindle://book?action=open&asin=B0BTGPTKKP&location=1677) ^ref-8145
+
+---
+「配当利回り」と「取得利回り」の違いを理解する 　増配銘柄を探すためには、「配当性向」と「配当利回り」の両方をチェックする必要がある……と理解できたら、その次は「配当利回り」と「取得利回り」の違い について知っておくことが大事です。 　配当利回りが「現在の株価に対する — location: [1682](kindle://book?action=open&asin=B0BTGPTKKP&location=1682) ^ref-54352
+
+---

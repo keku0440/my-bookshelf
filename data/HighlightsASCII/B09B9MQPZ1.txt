@@ -1,0 +1,39 @@
+---
+kindle-sync:
+  bookId: '22019'
+  title: お金のむこうに人がいる――元ゴールドマン・サックス金利トレーダーが書いた　予備知識のいらない経済新入門
+  author: 田内 学
+  asin: B09B9MQPZ1
+  lastAnnotatedDate: Invalid date
+  bookImageUrl: 'https://m.media-amazon.com/images/I/71Sm7gf1I3L._SY160.jpg'
+  highlightsCount: 7
+---
+# お金のむこうに人がいる――元ゴールドマン・サックス金利トレーダーが書いた　予備知識のいらない経済新入門
+## Metadata
+* Author: [田内 学](https://www.amazon.comundefined)
+* ASIN: B09B9MQPZ1
+* Reference: https://www.amazon.com/dp/B09B9MQPZ1
+* [Kindle link](kindle://book?action=open&asin=B09B9MQPZ1)
+
+## Highlights
+「働き方改革」が叫ばれているが、悪いのは会社だけではない。仕事を増やす原因を作っているのは、消費者でもある。会社だけでなく、僕たち消費者の意識を変えないと、自分自身のクビを締めることになってしまう。 しかし、一方で消費者の僕たちは、生産者の僕たちに文句がある。 — location: [510](kindle://book?action=open&asin=B09B9MQPZ1&location=510) ^ref-42737
+
+---
+僕たちが感じる価値の１つは、この「効用」と呼ばれる「使うときの価値」だ。 言い換えれば、 自分がどれだけ満足したか ということだ。 — location: [545](kindle://book?action=open&asin=B09B9MQPZ1&location=545) ^ref-52780
+
+---
+僕たちは、多くのお金を使うことではなく、多くの効用を得ることで自分の生活を豊かなものにしている。どんなに価格が高くても、あなたにとっての効用がなければ意味がない。 — location: [558](kindle://book?action=open&asin=B09B9MQPZ1&location=558) ^ref-19710
+
+---
+モノを売る人にとっては、味がおいしいかまずいかなどの効用は関係ない。受け取るお金のことだけ考えればいいのだから、重要なのは価格になる。 つまり、 価格とは、商売人にとっての価値だ。 — location: [565](kindle://book?action=open&asin=B09B9MQPZ1&location=565) ^ref-46249
+
+---
+このように「効用」と「価格」という２種類の価値の存在が僕たちを惑わせる。 — location: [570](kindle://book?action=open&asin=B09B9MQPZ1&location=570) ^ref-4291
+
+---
+喜んで働いてくれる人には、お金による交渉は必要ない。働きたくない人に働いてもらうときほど、強い交渉が必要になる。 — location: [615](kindle://book?action=open&asin=B09B9MQPZ1&location=615) ^ref-22461
+
+---
+つまり、 価格の高さは、「どれだけ働きたくないか」を表している。 — location: [617](kindle://book?action=open&asin=B09B9MQPZ1&location=617) ^ref-43663
+
+---
