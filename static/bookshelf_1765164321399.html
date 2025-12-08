@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>おすすめの投資・お金本 - Virtual Bookshelf</title>
+    <meta name="description" content="おすすめの投資・お金本の本棚です">
+
+    <!-- Open Graph for SNS sharing -->
+    <meta property="og:title" content="おすすめの投資・お金本 - Virtual Bookshelf">
+    <meta property="og:description" content="おすすめの投資・お金本の本棚です">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://localhost:8000/static/bookshelf_1765164321399.html">
+    <meta property="og:image" content="https://images-na.ssl-images-amazon.com/images/P/B0D32L2Z1J.01.L.jpg">
+    <meta property="og:site_name" content="Virtual Bookshelf">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="おすすめの投資・お金本 - Virtual Bookshelf">
+    <meta name="twitter:description" content="おすすめの投資・お金本の本棚です">
+    <meta name="twitter:image" content="https://images-na.ssl-images-amazon.com/images/P/B0D32L2Z1J.01.L.jpg">
+
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
+    <link rel="stylesheet" href="../css/bookshelf.css">
+    <style>
+        /* Static bookshelf specific styles */
+        .static-bookshelf {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .bookshelf-header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding: 2rem;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 10px;
+        }
+
+        .bookshelf-title {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            font-weight: bold;
+        }
+
+        .bookshelf-meta {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .bookshelf-stat {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            font-size: 0.9rem;
+        }
+
+        .books-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .static-book-item {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            overflow: hidden;
+            transition: transform 0.2s ease;
+        }
+
+        .static-book-item:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+        }
+
+        .static-book-cover {
+            width: 100%;
+            height: 240px;
+            object-fit: cover;
+            border-bottom: 1px solid #eee;
+        }
+
+        .static-book-info {
+            padding: 1rem;
+        }
+
+        .static-book-title {
+            font-weight: bold;
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+            line-height: 1.3;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .static-book-author {
+            color: #666;
+            font-size: 0.8rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .static-book-rating {
+            margin-top: 0.5rem;
+        }
+
+        .static-book-memo {
+            margin-top: 0.5rem;
+            font-size: 0.8rem;
+            color: #555;
+            line-height: 1.4;
+            font-style: italic;
+        }
+
+        .static-book-memo a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        .static-book-memo a:hover {
+            text-decoration: underline;
+        }
+
+        .footer-info {
+            text-align: center;
+            margin-top: 3rem;
+            padding: 2rem;
+            background: #f8f9fa;
+            border-radius: 10px;
+        }
+
+        .share-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .share-btn {
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: opacity 0.2s;
+        }
+
+        .share-btn:hover {
+            opacity: 0.8;
+        }
+
+        .share-twitter { background: #1da1f2; }
+        .share-facebook { background: #4267B2; }
+        .share-line { background: #00B900; }
+        .share-copy {
+            background: #343a40;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="static-bookshelf">
+        <header class="bookshelf-header">
+            <h1 class="bookshelf-title">💰 おすすめの投資・お金本</h1>
+            <p class="bookshelf-description">おすすめの投資・お金本の本棚です</p>
+            <div class="bookshelf-meta">
+                <div class="bookshelf-stat">📚 16冊</div>
+                <div class="bookshelf-stat">📅 2025年12月8日</div>
+
+            </div>
+        </header>
+
+        <main class="books-grid">
+            
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B0D32L2Z1J?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B0D32L2Z1J.01.L.jpg"
+                             alt="新NISAで始める！年間240万円の配当金が入ってくる究極の株式投資"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">新NISAで始める！年間240万円の配当金が入ってくる究極の株式投資</div>
+                        <div class="static-book-author">配当太郎</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B0BTGPTKKP?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B0BTGPTKKP.01.L.jpg"
+                             alt="年間100万円の配当金が入ってくる最高の株式投資"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">年間100万円の配当金が入ってくる最高の株式投資</div>
+                        <div class="static-book-author">配当太郎</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B07SYG2T9N?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B07SYG2T9N.01.L.jpg"
+                             alt="アセットアロケーションの最適化　ポートフォリオの構築とメンテナンスのための統合的アプローチ"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">アセットアロケーションの最適化　ポートフォリオの構築とメンテナンスのための統合的アプローチ</div>
+                        <div class="static-book-author">ロバート・カーバー</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B09HQM4WJP?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B09HQM4WJP.01.L.jpg"
+                             alt="お金に愛される　真・投資術"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">お金に愛される　真・投資術</div>
+                        <div class="static-book-author">与沢翼</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B09B9MQPZ1?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B09B9MQPZ1.01.L.jpg"
+                             alt="お金のむこうに人がいる――元ゴールドマン・サックス金利トレーダーが書いた　予備知識のいらない経済新入門"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">お金のむこうに人がいる――元ゴールドマン・サックス金利トレーダーが書いた　予備知識のいらない経済新入門</div>
+                        <div class="static-book-author">田内 学</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B01C804DKW?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B01C804DKW.01.L.jpg"
+                             alt="［新版］まずはアパート一棟、買いなさい！　資金300万円から家賃年収1000万円を生み出す極意"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">［新版］まずはアパート一棟、買いなさい！　資金300万円から家賃年収1000万円を生み出す極意</div>
+                        <div class="static-book-author">石原 博光</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B00AMX1ADQ?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B00AMX1ADQ.01.L.jpg"
+                             alt="300万円で大家になって地方でブラブラ暮らす法"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">300万円で大家になって地方でブラブラ暮らす法</div>
+                        <div class="static-book-author">加藤 ひろゆき</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B00BLVQ2FY?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B00BLVQ2FY.01.L.jpg"
+                             alt="資金300万円でも、アパート一棟、買えました！　ド素人がリスクを避けて収益物件を作る実践マニュアル"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">資金300万円でも、アパート一棟、買えました！　ド素人がリスクを避けて収益物件を作る実践マニュアル</div>
+                        <div class="static-book-author">石原 博光</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B07RLDTKTW?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B07RLDTKTW.01.L.jpg"
+                             alt="やってはいけない不動産投資 (朝日新書)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">やってはいけない不動産投資 (朝日新書)</div>
+                        <div class="static-book-author">藤田　知也</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B07MR4BC4P?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B07MR4BC4P.01.L.jpg"
+                             alt="ユダヤ人の成功哲学「タルムード」金言集 (集英社ビジネス書)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">ユダヤ人の成功哲学「タルムード」金言集 (集英社ビジネス書)</div>
+                        <div class="static-book-author">石角完爾</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B07HCH4BPK?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B07HCH4BPK.01.L.jpg"
+                             alt="独身こそ自宅マンションを買いなさい　今すぐ始める「家活」で自分を守る資産をつくる"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">独身こそ自宅マンションを買いなさい　今すぐ始める「家活」で自分を守る資産をつくる</div>
+                        <div class="static-book-author">沖　有人</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B07VR1CCHV?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B07VR1CCHV.01.L.jpg"
+                             alt="ウォール街のランダム・ウォーカー&lt;原著第12版&gt; 株式投資の不滅の真理 (日本経済新聞出版)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">ウォール街のランダム・ウォーカー&lt;原著第12版&gt; 株式投資の不滅の真理 (日本経済新聞出版)</div>
+                        <div class="static-book-author">バートン・マルキール</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B0746CMBJD?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B0746CMBJD.01.L.jpg"
+                             alt="新版　お金持ちになれる黄金の羽根の拾い方　知的人生設計のすすめ (幻冬舎文庫)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">新版　お金持ちになれる黄金の羽根の拾い方　知的人生設計のすすめ (幻冬舎文庫)</div>
+                        <div class="static-book-author">橘玲</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B00F36MGDU?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B00F36MGDU.01.L.jpg"
+                             alt="マネーの公理"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">マネーの公理</div>
+                        <div class="static-book-author">マックス ギュンター</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B00WWRM2TG?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B00WWRM2TG.01.L.jpg"
+                             alt="投資家のヨットはどこにある？ ──プロにだまされないための知恵"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">投資家のヨットはどこにある？ ──プロにだまされないための知恵</div>
+                        <div class="static-book-author">フレッド・シュエッド・ジュニア</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B01MTQVBEX?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B01MTQVBEX.01.L.jpg"
+                             alt="生命保険は「入るほど損」？！ (日本経済新聞出版)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">生命保険は「入るほど損」？！ (日本経済新聞出版)</div>
+                        <div class="static-book-author">後田亨</div>
+                        
+                        
+                    </div>
+                </div>
+            
+        </main>
+
+        <footer class="footer-info">
+            <h3>📤 この本棚をシェア</h3>
+            <div class="share-buttons">
+                <a href="https://twitter.com/intent/tweet?text=%E3%81%8A%E3%81%99%E3%81%99%E3%82%81%E3%81%AE%E6%8A%95%E8%B3%87%E3%83%BB%E3%81%8A%E9%87%91%E6%9C%AC%20%23vbshelf%20http%3A%2F%2Flocalhost%3A8000%2Fstatic%2Fbookshelf_1765164321399.html"
+                   target="_blank" class="share-btn share-twitter">🐦 Twitter</a>
+                <button onclick="copyToClipboard('おすすめの投資・お金本 #vbshelf http://localhost:8000/static/bookshelf_1765164321399.html')" class="share-btn share-copy">📋 テキストコピー</button>
+            </div>
+
+            <p style="margin-top: 2rem; color: #666;">
+                Powered by <a href="../index.html" style="color: #667eea;">Virtual Bookshelf</a>
+            </p>
+        </footer>
+    </div>
+
+    <script>
+        function copyToClipboard(text) {
+            navigator.clipboard.writeText(text).then(() => {
+                alert('URLをクリップボードにコピーしました！');
+            }).catch(() => {
+                // フォールバック
+                const textArea = document.createElement('textarea');
+                textArea.value = text;
+                document.body.appendChild(textArea);
+                textArea.select();
+                document.execCommand('copy');
+                document.body.removeChild(textArea);
+                alert('URLをクリップボードにコピーしました！');
+            });
+        }
+    </script>
+</body>
+</html>
