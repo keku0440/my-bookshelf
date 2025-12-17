@@ -24,7 +24,18 @@ class VirtualBookshelf {
         this.booksPerPage = 50;
         this.sortOrder = 'custom';
         this.sortDirection = 'desc';
+<<<<<<< HEAD
         
+=======
+
+        // シリーズグループ化関連
+        this.seriesManager = null;
+        this.seriesGroups = [];
+        this.bookToSeriesMap = new Map();
+        this.enableSeriesGrouping = false;
+        this.displayItems = []; // 表示用アイテム（本またはシリーズ）
+
+>>>>>>> upstream/main
         this.init();
     }
 
@@ -147,6 +158,31 @@ class VirtualBookshelf {
         // Initialize Static Bookshelf Generator after userData is fully loaded
         this.staticGenerator = new StaticBookshelfGenerator(this.bookManager, this.userData);
 
+<<<<<<< HEAD
+=======
+        // Initialize SeriesManager and detect series
+        this.seriesManager = new SeriesManager();
+        const { seriesGroups, bookToSeriesMap } = this.seriesManager.detectAndGroupSeries(this.books);
+        this.seriesGroups = seriesGroups;
+        this.bookToSeriesMap = bookToSeriesMap;
+
+        // Load series grouping setting
+        this.enableSeriesGrouping = this.userData.settings.enableSeriesGrouping || false;
+        const seriesGroupingCheckbox = document.getElementById('series-grouping');
+        if (seriesGroupingCheckbox) {
+            seriesGroupingCheckbox.checked = this.enableSeriesGrouping;
+        }
+
+        // Load sort settings
+        if (this.userData.settings.sortOrder) {
+            this.sortOrder = this.userData.settings.sortOrder;
+            document.getElementById('sort-order').value = this.sortOrder;
+        }
+        if (this.userData.settings.sortDirection) {
+            this.sortDirection = this.userData.settings.sortDirection;
+        }
+
+>>>>>>> upstream/main
         this.applyFilters();
     }
 
@@ -168,7 +204,19 @@ class VirtualBookshelf {
         ['star-0', 'star-1', 'star-2', 'star-3', 'star-4', 'star-5'].forEach(id => {
             document.getElementById(id).addEventListener('change', () => this.applyFilters());
         });
+<<<<<<< HEAD
         
+=======
+
+        // Series grouping toggle
+        const seriesGroupingCheckbox = document.getElementById('series-grouping');
+        if (seriesGroupingCheckbox) {
+            seriesGroupingCheckbox.addEventListener('change', (e) => {
+                this.setSeriesGroupingEnabled(e.target.checked);
+            });
+        }
+
+>>>>>>> upstream/main
         // Sort
         document.getElementById('sort-order').addEventListener('change', (e) => {
             this.sortOrder = e.target.value;
@@ -207,6 +255,17 @@ class VirtualBookshelf {
             this.exportUnifiedData();
         });
 
+<<<<<<< HEAD
+=======
+        // Settings export button
+        const exportSettingsBtn = document.getElementById('export-settings');
+        if (exportSettingsBtn) {
+            exportSettingsBtn.addEventListener('click', () => {
+                this.exportDefaultSettings();
+            });
+        }
+
+>>>>>>> upstream/main
         // Bookshelf management
         const manageBookshelves = document.getElementById('manage-bookshelves');
         if (manageBookshelves) {
@@ -436,12 +495,102 @@ class VirtualBookshelf {
             
             return this.sortDirection === 'asc' ? comparison : -comparison;
         });
+<<<<<<< HEAD
         
+=======
+
+        // シリーズグループ化を適用
+        this.applySeriesGrouping();
+
+>>>>>>> upstream/main
         this.currentPage = 1;
         this.updateDisplay();
         this.updateStats();
     }
+<<<<<<< HEAD
     
+=======
+
+    /**
+     * シリーズグループ化を適用
+     * @returns {Array<Object|SeriesInfo>} 表示用リスト
+     */
+    applySeriesGrouping() {
+        if (!this.enableSeriesGrouping || !this.seriesManager) {
+            // グループ化が無効な場合は、filteredBooksをそのまま表示
+            this.displayItems = this.filteredBooks.map(book => ({
+                type: 'book',
+                data: book
+            }));
+            return this.displayItems;
+        }
+
+        // シリーズグループ化が有効な場合
+        const processedSeriesIds = new Set();
+        this.displayItems = [];
+
+        this.filteredBooks.forEach(book => {
+            const seriesId = this.bookToSeriesMap.get(book.asin);
+
+            if (seriesId && !processedSeriesIds.has(seriesId)) {
+                // シリーズに属する本の場合、シリーズとして追加
+                const series = this.seriesManager.getSeriesById(seriesId);
+                if (series) {
+                    // フィルター後の本がシリーズに含まれているか確認
+                    const filteredVolumes = series.volumes.filter(v =>
+                        this.filteredBooks.some(fb => fb.asin === v.book.asin)
+                    );
+
+                    if (filteredVolumes.length >= 2) {
+                        // 2冊以上フィルター後に残っていればシリーズとして表示
+                        this.displayItems.push({
+                            type: 'series',
+                            data: {
+                                ...series,
+                                filteredVolumes // フィルター後の巻リスト
+                            }
+                        });
+                        processedSeriesIds.add(seriesId);
+                    } else {
+                        // 1冊のみの場合は個別の本として表示
+                        this.displayItems.push({
+                            type: 'book',
+                            data: book
+                        });
+                    }
+                }
+            } else if (!seriesId) {
+                // シリーズに属さない本
+                this.displayItems.push({
+                    type: 'book',
+                    data: book
+                });
+            }
+            // シリーズに属するが既に処理済みの場合はスキップ
+        });
+
+        return this.displayItems;
+    }
+
+    /**
+     * シリーズグループ化の有効/無効を切り替え
+     * @param {boolean} enabled
+     */
+    setSeriesGroupingEnabled(enabled) {
+        this.enableSeriesGrouping = enabled;
+
+        // 設定を保存
+        if (!this.userData.settings) {
+            this.userData.settings = {};
+        }
+        this.userData.settings.enableSeriesGrouping = enabled;
+        this.saveUserData();
+
+        // 表示を更新
+        this.applyFilters();
+    }
+
+>>>>>>> upstream/main
     toggleSortDirection() {
         this.sortDirection = this.sortDirection === 'asc' ? 'desc' : 'asc';
         this.updateSortDirectionButton();
@@ -541,6 +690,7 @@ class VirtualBookshelf {
 
 
     renderStandardView(container) {
+<<<<<<< HEAD
         // Apply custom book order only if sort order is set to 'custom'
         const currentBookshelfId = document.getElementById('bookshelf-selector').value;
         let booksToRender = [...this.filteredBooks];
@@ -577,6 +727,57 @@ class VirtualBookshelf {
         
         booksToShow.forEach(book => {
             container.appendChild(this.createBookElement(book, this.currentView));
+=======
+        // シリーズグループ化が有効な場合はdisplayItemsを使用
+        let itemsToRender;
+
+        if (this.enableSeriesGrouping && this.displayItems.length > 0) {
+            itemsToRender = [...this.displayItems];
+        } else {
+            // Apply custom book order only if sort order is set to 'custom'
+            const currentBookshelfId = document.getElementById('bookshelf-selector').value;
+            let booksToRender = [...this.filteredBooks];
+
+            if (this.sortOrder === 'custom' && this.userData.bookOrder && this.userData.bookOrder[currentBookshelfId]) {
+                const customOrder = this.userData.bookOrder[currentBookshelfId];
+
+                // Sort books according to custom order, with unordered books at the end
+                booksToRender.sort((a, b) => {
+                    const aIndex = customOrder.indexOf(a.asin);
+                    const bIndex = customOrder.indexOf(b.asin);
+
+                    if (aIndex === -1 && bIndex === -1) return 0; // Both not in custom order
+                    if (aIndex === -1) return 1; // a not in custom order, put at end
+                    if (bIndex === -1) return -1; // b not in custom order, put at end
+                    return aIndex - bIndex; // Both in custom order, use custom order
+                });
+            }
+
+            itemsToRender = booksToRender.map(book => ({ type: 'book', data: book }));
+        }
+
+        // Handle pagination - 値を一度に取得して固定
+        const booksPerPage = parseInt(this.booksPerPage) || 50;  // 安全な値として取得
+        const currentPage = parseInt(this.currentPage) || 1;
+
+        let itemsToShow;
+        if (booksPerPage >= itemsToRender.length) {
+            // Show all items
+            itemsToShow = itemsToRender;
+        } else {
+            // Show paginated items
+            const startIndex = (currentPage - 1) * booksPerPage;
+            const endIndex = startIndex + booksPerPage;
+            itemsToShow = itemsToRender.slice(startIndex, endIndex);
+        }
+
+        itemsToShow.forEach(item => {
+            if (item.type === 'series') {
+                container.appendChild(this.createSeriesElement(item.data, this.currentView));
+            } else {
+                container.appendChild(this.createBookElement(item.data, this.currentView));
+            }
+>>>>>>> upstream/main
         });
     }
 
@@ -672,6 +873,83 @@ class VirtualBookshelf {
         return bookElement;
     }
 
+<<<<<<< HEAD
+=======
+    /**
+     * シリーズ表示要素を生成
+     * @param {SeriesInfo} series - シリーズ情報
+     * @param {string} displayType - 表示タイプ（covers/list）
+     * @returns {HTMLElement}
+     */
+    createSeriesElement(series, displayType) {
+        const seriesElement = document.createElement('div');
+        seriesElement.className = 'book-item series-item';
+        seriesElement.dataset.seriesId = series.seriesId;
+
+        const representativeBook = series.representativeBook;
+        const totalVolumes = series.filteredVolumes ? series.filteredVolumes.length : series.totalVolumes;
+        const progress = this.seriesManager.getSeriesProgress(series);
+
+        if (displayType === 'cover' || displayType === 'covers') {
+            const amazonUrl = this.bookManager.getAmazonUrl(representativeBook, this.userData.settings.affiliateId);
+            seriesElement.innerHTML = `
+                <div class="book-cover-container series-cover-container">
+                    <div class="series-badge">全${totalVolumes}巻</div>
+                    <a href="${amazonUrl}" target="_blank" rel="noopener noreferrer" class="book-cover-link">
+                        ${representativeBook.productImage ?
+                            `<img class="book-cover lazy" data-src="${this.escapeHtml(this.bookManager.getProductImageUrl(representativeBook))}" alt="${this.escapeHtml(series.seriesName)}">` :
+                            `<div class="book-cover-placeholder">${this.escapeHtml(series.seriesName)}</div>`
+                        }
+                    </a>
+                </div>
+                <div class="book-info">
+                    <div class="book-title">${this.escapeHtml(series.seriesName)}</div>
+                    <div class="book-author">${this.escapeHtml(series.authors)}</div>
+                    <div class="book-links">
+                        <a href="${amazonUrl}" target="_blank" rel="noopener noreferrer" class="book-link amazon-link">Amazon</a>
+                        <a href="#" class="book-link series-detail-link" data-series-id="${series.seriesId}">シリーズ詳細</a>
+                    </div>
+                </div>
+            `;
+        } else {
+            // リスト表示
+            const amazonUrl = this.bookManager.getAmazonUrl(representativeBook, this.userData.settings.affiliateId);
+            seriesElement.innerHTML = `
+                <div class="book-cover-container series-cover-container">
+                    <div class="series-badge">全${totalVolumes}巻</div>
+                    <a href="${amazonUrl}" target="_blank" rel="noopener noreferrer" class="book-cover-link">
+                        ${representativeBook.productImage ?
+                            `<img class="book-cover lazy" data-src="${this.escapeHtml(this.bookManager.getProductImageUrl(representativeBook))}" alt="${this.escapeHtml(series.seriesName)}">` :
+                            '<div class="book-cover-placeholder">📚</div>'
+                        }
+                    </a>
+                </div>
+                <div class="book-info">
+                    <div class="book-title">${this.escapeHtml(series.seriesName)}</div>
+                    <div class="book-author">${this.escapeHtml(series.authors)}</div>
+                    <div class="book-links">
+                        <a href="${amazonUrl}" target="_blank" rel="noopener noreferrer" class="book-link amazon-link">Amazon</a>
+                        <a href="#" class="book-link series-detail-link" data-series-id="${series.seriesId}">シリーズ詳細</a>
+                    </div>
+                </div>
+            `;
+        }
+
+        // シリーズ詳細リンクのクリックイベント
+        seriesElement.addEventListener('click', (e) => {
+            if (e.target.classList.contains('series-detail-link') || e.target.closest('.series-detail-link')) {
+                e.preventDefault();
+                e.stopPropagation();
+                this.showSeriesDetail(series.seriesId);
+                return;
+            }
+            // 表紙やAmazonリンクはそのまま遷移させる
+        });
+
+        return seriesElement;
+    }
+
+>>>>>>> upstream/main
     handleDragStart(e) {
         // Get the book-item element, not the drag handle
         const bookItem = e.target.closest('.book-item');
@@ -1048,6 +1326,165 @@ class VirtualBookshelf {
         modal.classList.add('show');
     }
 
+<<<<<<< HEAD
+=======
+    /**
+     * シリーズ詳細モーダルを表示
+     * @param {string} seriesId - シリーズID
+     */
+    showSeriesDetail(seriesId) {
+        const series = this.seriesManager.getSeriesById(seriesId);
+        if (!series) {
+            console.error('シリーズが見つかりません:', seriesId);
+            return;
+        }
+
+        const progress = this.seriesManager.getSeriesProgress(series);
+
+        // シリーズモーダルオーバーレイを作成（既存があれば削除）
+        let overlay = document.querySelector('.series-modal-overlay');
+        if (overlay) {
+            overlay.remove();
+        }
+
+        overlay = document.createElement('div');
+        overlay.className = 'series-modal-overlay';
+
+        // 巻リストのHTML生成
+        const volumesHtml = series.volumes.map(({ book, volumeNumber }) => {
+            const userNote = this.userData.notes[book.asin];
+            const hasNote = userNote && userNote.memo;
+            const rating = userNote ? userNote.rating : 0;
+            const isRead = book.readStatus && book.readStatus.toLowerCase() === 'read';
+
+            return `
+                <div class="series-volume-item" data-asin="${book.asin}">
+                    ${book.productImage ?
+                        `<img class="series-volume-cover" src="${this.bookManager.getProductImageUrl(book)}" alt="${this.escapeHtml(book.title)}">` :
+                        '<div class="series-volume-cover-placeholder">📖</div>'
+                    }
+                    <div class="series-volume-info">
+                        <div class="series-volume-number">${volumeNumber !== null ? `第${volumeNumber}巻` : ''}</div>
+                        <div class="series-volume-title">${this.escapeHtml(book.title)}</div>
+                    </div>
+                    <div class="series-volume-icons">
+                        ${hasNote ? '<span class="series-volume-icon" title="メモあり">📝</span>' : ''}
+                        ${rating > 0 ? `<span class="series-volume-icon" title="${rating}つ星">${'★'.repeat(rating)}${'☆'.repeat(5 - rating)}</span>` : ''}
+                    </div>
+                </div>
+            `;
+        }).join('');
+
+        // 本棚選択オプションを生成
+        const bookshelfOptions = this.userData.bookshelves ?
+            this.userData.bookshelves.map(bs =>
+                `<option value="${bs.id}">${bs.emoji || '📚'} ${bs.name}</option>`
+            ).join('') : '';
+
+        overlay.innerHTML = `
+            <div class="series-modal">
+                <div class="series-modal-header">
+                    <div>
+                        <h2 class="series-modal-title">${this.escapeHtml(series.seriesName)}</h2>
+                        <div class="series-modal-author">${this.escapeHtml(series.authors)}</div>
+                    </div>
+                    <button class="series-modal-close">&times;</button>
+                </div>
+                <div class="series-modal-actions">
+                    <div class="series-bookshelf-add">
+                        <select id="series-bookshelf-select" class="form-select">
+                            <option value="">本棚を選択...</option>
+                            ${bookshelfOptions}
+                        </select>
+                        <button id="add-series-to-bookshelf" class="btn btn-primary" data-series-id="${series.seriesId}">
+                            全${series.volumes.length}巻を追加
+                        </button>
+                        <button id="remove-series-from-bookshelf" class="btn btn-danger" data-series-id="${series.seriesId}">
+                            全巻を削除
+                        </button>
+                    </div>
+                </div>
+                <div class="series-modal-body">
+                    <div class="series-volumes-list">
+                        ${volumesHtml}
+                    </div>
+                </div>
+            </div>
+        `;
+
+        document.body.appendChild(overlay);
+
+        // アニメーション用に少し遅らせてactiveクラスを追加
+        requestAnimationFrame(() => {
+            overlay.classList.add('active');
+        });
+
+        // 閉じるボタンのイベント
+        overlay.querySelector('.series-modal-close').addEventListener('click', () => {
+            this.closeSeriesModal();
+        });
+
+        // オーバーレイクリックで閉じる
+        overlay.addEventListener('click', (e) => {
+            if (e.target === overlay) {
+                this.closeSeriesModal();
+            }
+        });
+
+        // 各巻をクリックで本の詳細を表示
+        overlay.querySelectorAll('.series-volume-item').forEach(item => {
+            item.addEventListener('click', () => {
+                const asin = item.dataset.asin;
+                const book = this.books.find(b => b.asin === asin);
+                if (book) {
+                    this.closeSeriesModal();
+                    this.showBookDetail(book);
+                }
+            });
+        });
+
+        // シリーズ全巻を本棚に追加
+        const addSeriesBtn = overlay.querySelector('#add-series-to-bookshelf');
+        if (addSeriesBtn) {
+            addSeriesBtn.addEventListener('click', () => {
+                const seriesId = addSeriesBtn.dataset.seriesId;
+                this.addSeriesToBookshelf(seriesId);
+            });
+        }
+
+        // シリーズ全巻を本棚から削除
+        const removeSeriesBtn = overlay.querySelector('#remove-series-from-bookshelf');
+        if (removeSeriesBtn) {
+            removeSeriesBtn.addEventListener('click', () => {
+                const seriesId = removeSeriesBtn.dataset.seriesId;
+                this.removeSeriesFromBookshelf(seriesId);
+            });
+        }
+
+        // ESCキーで閉じる
+        const escHandler = (e) => {
+            if (e.key === 'Escape') {
+                this.closeSeriesModal();
+                document.removeEventListener('keydown', escHandler);
+            }
+        };
+        document.addEventListener('keydown', escHandler);
+    }
+
+    /**
+     * シリーズモーダルを閉じる
+     */
+    closeSeriesModal() {
+        const overlay = document.querySelector('.series-modal-overlay');
+        if (overlay) {
+            overlay.classList.remove('active');
+            setTimeout(() => {
+                overlay.remove();
+            }, 300);
+        }
+    }
+
+>>>>>>> upstream/main
     closeModal() {
         const modal = document.getElementById('book-modal');
         modal.classList.remove('show');
@@ -1168,7 +1605,12 @@ class VirtualBookshelf {
             currentBookshelf: 'all',
             theme: 'light',
             booksPerPage: 50,
+<<<<<<< HEAD
             showImagesInOverview: true
+=======
+            showImagesInOverview: true,
+            enableSeriesGrouping: true
+>>>>>>> upstream/main
         };
     }
 
@@ -1447,13 +1889,141 @@ class VirtualBookshelf {
         bookshelf.books.push(asin);
         this.saveUserData();
         this.renderBookshelfList(); // Update the bookshelf management UI if open
+<<<<<<< HEAD
         
         alert(`✅ 「${bookshelf.name}」に追加しました！`);
         
+=======
+
+        alert(`✅ 「${bookshelf.name}」に追加しました！`);
+
+>>>>>>> upstream/main
         // Reset the dropdown
         bookshelfSelect.value = '';
     }
 
+<<<<<<< HEAD
+=======
+    /**
+     * シリーズ全巻を本棚に追加
+     * @param {string} seriesId - シリーズID
+     */
+    addSeriesToBookshelf(seriesId) {
+        const bookshelfSelect = document.getElementById('series-bookshelf-select');
+        const bookshelfId = bookshelfSelect.value;
+
+        if (!bookshelfId) {
+            alert('📚 本棚を選択してください');
+            return;
+        }
+
+        const series = this.seriesManager.getSeriesById(seriesId);
+        if (!series) {
+            alert('❌ シリーズが見つかりません');
+            return;
+        }
+
+        const bookshelf = this.userData.bookshelves.find(b => b.id === bookshelfId);
+        if (!bookshelf) {
+            alert('❌ 本棚が見つかりません');
+            return;
+        }
+
+        if (!bookshelf.books) {
+            bookshelf.books = [];
+        }
+
+        // シリーズの全巻を追加（既に追加済みのものはスキップ）
+        let addedCount = 0;
+        let skippedCount = 0;
+
+        series.volumes.forEach(({ book }) => {
+            if (!bookshelf.books.includes(book.asin)) {
+                bookshelf.books.push(book.asin);
+                addedCount++;
+            } else {
+                skippedCount++;
+            }
+        });
+
+        this.saveUserData();
+        this.renderBookshelfList();
+
+        if (addedCount > 0) {
+            let message = `✅ 「${bookshelf.name}」に${addedCount}巻を追加しました！`;
+            if (skippedCount > 0) {
+                message += `\n（${skippedCount}巻は既に追加済み）`;
+            }
+            alert(message);
+        } else {
+            alert(`📚 全${series.volumes.length}巻は既に「${bookshelf.name}」に追加済みです`);
+        }
+
+        // ドロップダウンをリセット
+        bookshelfSelect.value = '';
+    }
+
+    /**
+     * シリーズ全巻を本棚から削除
+     * @param {string} seriesId - シリーズID
+     */
+    removeSeriesFromBookshelf(seriesId) {
+        const bookshelfSelect = document.getElementById('series-bookshelf-select');
+        const bookshelfId = bookshelfSelect.value;
+
+        if (!bookshelfId) {
+            alert('📚 本棚を選択してください');
+            return;
+        }
+
+        const series = this.seriesManager.getSeriesById(seriesId);
+        if (!series) {
+            alert('❌ シリーズが見つかりません');
+            return;
+        }
+
+        const bookshelf = this.userData.bookshelves.find(b => b.id === bookshelfId);
+        if (!bookshelf) {
+            alert('❌ 本棚が見つかりません');
+            return;
+        }
+
+        if (!bookshelf.books || bookshelf.books.length === 0) {
+            alert(`📚 「${bookshelf.name}」には本がありません`);
+            return;
+        }
+
+        // 確認ダイアログ
+        if (!confirm(`「${bookshelf.name}」から「${series.seriesName}」の全巻を削除しますか？`)) {
+            return;
+        }
+
+        // シリーズの全巻を削除
+        let removedCount = 0;
+
+        series.volumes.forEach(({ book }) => {
+            const index = bookshelf.books.indexOf(book.asin);
+            if (index !== -1) {
+                bookshelf.books.splice(index, 1);
+                removedCount++;
+            }
+        });
+
+        this.saveUserData();
+        this.renderBookshelfList();
+        this.updateDisplay();
+
+        if (removedCount > 0) {
+            alert(`✅ 「${bookshelf.name}」から${removedCount}巻を削除しました`);
+        } else {
+            alert(`📚 「${bookshelf.name}」にこのシリーズの本はありませんでした`);
+        }
+
+        // ドロップダウンをリセット
+        bookshelfSelect.value = '';
+    }
+
+>>>>>>> upstream/main
     removeFromBookshelf(asin, bookshelfId) {
         const bookshelf = this.userData.bookshelves.find(b => b.id === bookshelfId);
         if (!bookshelf || !bookshelf.books) {
@@ -2243,6 +2813,81 @@ class VirtualBookshelf {
     }
 
     /**
+<<<<<<< HEAD
+=======
+     * エクスポート可能な設定項目のホワイトリスト
+     */
+    static EXPORTABLE_SETTINGS = [
+        'defaultView',
+        'coverSize',
+        'booksPerPage',
+        'enableSeriesGrouping',
+        'showImagesInOverview',
+        'sortOrder',
+        'sortDirection'
+    ];
+
+    /**
+     * エクスポート用の設定オブジェクトを生成
+     * @returns {Object} フィルタリングされた設定オブジェクト
+     */
+    buildExportableSettings() {
+        if (!this.userData || !this.userData.settings) {
+            console.error('設定データが存在しません');
+            return {};
+        }
+
+        const exportSettings = {};
+        VirtualBookshelf.EXPORTABLE_SETTINGS.forEach(key => {
+            if (this.userData.settings[key] !== undefined) {
+                exportSettings[key] = this.userData.settings[key];
+            }
+        });
+
+        return exportSettings;
+    }
+
+    /**
+     * デフォルト設定をconfig.json形式でエクスポート
+     */
+    exportDefaultSettings() {
+        console.log('⚙️ 設定エクスポート開始...');
+
+        try {
+            // 設定データの存在確認
+            if (!this.userData || !this.userData.settings) {
+                throw new Error('設定データが初期化されていません');
+            }
+
+            // エクスポート用設定を生成
+            const exportSettings = this.buildExportableSettings();
+
+            console.log('📋 エクスポート設定:', exportSettings);
+
+            // JSON文字列に変換（UTF-8、2スペースインデント）
+            const jsonString = JSON.stringify(exportSettings, null, 2);
+
+            // Blobを作成してダウンロード
+            const blob = new Blob([jsonString], { type: 'application/json;charset=utf-8' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'config.json';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+
+            console.log('✅ 設定エクスポート完了');
+            alert('⚙️ config.json をエクスポートしました！\nこのファイルをdata/config.jsonとして配置すると、デフォルト設定として適用されます。');
+        } catch (error) {
+            console.error('設定エクスポートエラー:', error);
+            alert('設定のエクスポートに失敗しました: ' + error.message);
+        }
+    }
+
+    /**
+>>>>>>> upstream/main
      * 蔵書を全てクリア
      */
     async clearLibrary() {
