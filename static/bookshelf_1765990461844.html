@@ -1,0 +1,1482 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>おすすめの漫画 - Virtual Bookshelf</title>
+    <meta name="description" content="おすすめの漫画の本棚です">
+
+    <!-- Open Graph for SNS sharing -->
+    <meta property="og:title" content="おすすめの漫画 - Virtual Bookshelf">
+    <meta property="og:description" content="おすすめの漫画の本棚です">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://keku0440.github.io/my-bookshelf/static/bookshelf_1765990461844.html">
+    <meta property="og:image" content="https://images-na.ssl-images-amazon.com/images/P/B078MKQL19.01.L.jpg">
+    <meta property="og:site_name" content="Virtual Bookshelf">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="おすすめの漫画 - Virtual Bookshelf">
+    <meta name="twitter:description" content="おすすめの漫画の本棚です">
+    <meta name="twitter:image" content="https://images-na.ssl-images-amazon.com/images/P/B078MKQL19.01.L.jpg">
+
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
+    <link rel="stylesheet" href="../css/bookshelf.css">
+    <style>
+        /* Static bookshelf specific styles */
+        .static-bookshelf {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .bookshelf-header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding: 2rem;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 10px;
+        }
+
+        .bookshelf-title {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            font-weight: bold;
+        }
+
+        .bookshelf-meta {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .bookshelf-stat {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            font-size: 0.9rem;
+        }
+
+        .books-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .static-book-item {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            overflow: hidden;
+            transition: transform 0.2s ease;
+        }
+
+        .static-book-item:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+        }
+
+        .static-book-cover {
+            width: 100%;
+            height: 240px;
+            object-fit: cover;
+            border-bottom: 1px solid #eee;
+        }
+
+        .static-book-info {
+            padding: 1rem;
+        }
+
+        .static-book-title {
+            font-weight: bold;
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+            line-height: 1.3;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .static-book-author {
+            color: #666;
+            font-size: 0.8rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .static-book-rating {
+            margin-top: 0.5rem;
+        }
+
+        .static-book-memo {
+            margin-top: 0.5rem;
+            font-size: 0.8rem;
+            color: #555;
+            line-height: 1.4;
+            font-style: italic;
+        }
+
+        .static-book-memo a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        .static-book-memo a:hover {
+            text-decoration: underline;
+        }
+
+        .footer-info {
+            text-align: center;
+            margin-top: 3rem;
+            padding: 2rem;
+            background: #f8f9fa;
+            border-radius: 10px;
+        }
+
+        .share-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .share-btn {
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: opacity 0.2s;
+        }
+
+        .share-btn:hover {
+            opacity: 0.8;
+        }
+
+        .share-twitter { background: #1da1f2; }
+        .share-facebook { background: #4267B2; }
+        .share-line { background: #00B900; }
+        .share-copy {
+            background: #343a40;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="static-bookshelf">
+        <header class="bookshelf-header">
+            <h1 class="bookshelf-title">📚 おすすめの漫画</h1>
+            <p class="bookshelf-description">おすすめの漫画の本棚です</p>
+            <div class="bookshelf-meta">
+                <div class="bookshelf-stat">📚 79冊</div>
+                <div class="bookshelf-stat">📅 2025年12月18日</div>
+
+            </div>
+        </header>
+
+        <main class="books-grid">
+            
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B078MKQL19?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B078MKQL19.01.L.jpg"
+                             alt="正直不動産（１） (ビッグコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">正直不動産（１） (ビッグコミックス)</div>
+                        <div class="static-book-author">大谷アキラ, 夏原武, 水野光博</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B07C3JRBKK?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B07C3JRBKK.01.L.jpg"
+                             alt="正直不動産（２） (ビッグコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">正直不動産（２） (ビッグコミックス)</div>
+                        <div class="static-book-author">大谷アキラ, 夏原武, 水野光博</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B07GDCMB91?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B07GDCMB91.01.L.jpg"
+                             alt="正直不動産（３） (ビッグコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">正直不動産（３） (ビッグコミックス)</div>
+                        <div class="static-book-author">大谷アキラ, 夏原武, 水野光博</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B07L93KKRZ?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B07L93KKRZ.01.L.jpg"
+                             alt="正直不動産（４） (ビッグコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">正直不動産（４） (ビッグコミックス)</div>
+                        <div class="static-book-author">大谷アキラ, 夏原武, 水野光博</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B07QKZT96G?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B07QKZT96G.01.L.jpg"
+                             alt="正直不動産（５） (ビッグコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">正直不動産（５） (ビッグコミックス)</div>
+                        <div class="static-book-author">大谷アキラ, 夏原武, 水野光博</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B07WK28STQ?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B07WK28STQ.01.L.jpg"
+                             alt="正直不動産（６） (ビッグコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">正直不動産（６） (ビッグコミックス)</div>
+                        <div class="static-book-author">大谷アキラ, 夏原武, 水野光博</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B082NRQ6H5?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B082NRQ6H5.01.L.jpg"
+                             alt="正直不動産（７） (ビッグコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">正直不動産（７） (ビッグコミックス)</div>
+                        <div class="static-book-author">大谷アキラ, 夏原武, 水野光博</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B08732K2N3?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B08732K2N3.01.L.jpg"
+                             alt="正直不動産（８） (ビッグコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">正直不動産（８） (ビッグコミックス)</div>
+                        <div class="static-book-author">大谷アキラ, 夏原武, 水野光博</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B08FRDWTL5?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B08FRDWTL5.01.L.jpg"
+                             alt="正直不動産（９） (ビッグコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">正直不動産（９） (ビッグコミックス)</div>
+                        <div class="static-book-author">大谷アキラ, 夏原武, 水野光博</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B08Q7CY2Q8?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B08Q7CY2Q8.01.L.jpg"
+                             alt="正直不動産（１０） (ビッグコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">正直不動産（１０） (ビッグコミックス)</div>
+                        <div class="static-book-author">大谷アキラ, 夏原武, 水野光博</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B0928ML67W?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B0928ML67W.01.L.jpg"
+                             alt="正直不動産（１１） (ビッグコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">正直不動産（１１） (ビッグコミックス)</div>
+                        <div class="static-book-author">大谷アキラ, 夏原武, 水野光博</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B09CD1X225?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B09CD1X225.01.L.jpg"
+                             alt="正直不動産（１２） (ビッグコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">正直不動産（１２） (ビッグコミックス)</div>
+                        <div class="static-book-author">大谷アキラ, 夏原武, 水野光博</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B09M64TXX9?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B09M64TXX9.01.L.jpg"
+                             alt="正直不動産（１３） (ビッグコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">正直不動産（１３） (ビッグコミックス)</div>
+                        <div class="static-book-author">大谷アキラ, 夏原武, 水野光博</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B09VBTMPX1?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B09VBTMPX1.01.L.jpg"
+                             alt="正直不動産（１４） (ビッグコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">正直不動産（１４） (ビッグコミックス)</div>
+                        <div class="static-book-author">大谷アキラ, 夏原武, 水野光博</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B0B93K22DZ?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B0B93K22DZ.01.L.jpg"
+                             alt="正直不動産（１５） (ビッグコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">正直不動産（１５） (ビッグコミックス)</div>
+                        <div class="static-book-author">大谷アキラ, 夏原武, 水野光博</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B0BPM1QTTY?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B0BPM1QTTY.01.L.jpg"
+                             alt="正直不動産（１６） (ビッグコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">正直不動産（１６） (ビッグコミックス)</div>
+                        <div class="static-book-author">大谷アキラ, 夏原武, 水野光博</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B0C27MM135?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B0C27MM135.01.L.jpg"
+                             alt="正直不動産（１７） (ビッグコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">正直不動産（１７） (ビッグコミックス)</div>
+                        <div class="static-book-author">大谷アキラ, 夏原武, 水野光博</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B0CG5QN2Q2?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B0CG5QN2Q2.01.L.jpg"
+                             alt="正直不動産（１８） (ビッグコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">正直不動産（１８） (ビッグコミックス)</div>
+                        <div class="static-book-author">大谷アキラ, 夏原武, 水野光博</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B0CPPPF259?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B0CPPPF259.01.L.jpg"
+                             alt="正直不動産（１９） (ビッグコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">正直不動産（１９） (ビッグコミックス)</div>
+                        <div class="static-book-author">大谷アキラ, 夏原武, 水野光博</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B0D3QBW3D8?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B0D3QBW3D8.01.L.jpg"
+                             alt="正直不動産（２０） (ビッグコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">正直不動産（２０） (ビッグコミックス)</div>
+                        <div class="static-book-author">大谷アキラ, 夏原武, 水野光博</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B018V21MIW?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B018V21MIW.01.L.jpg"
+                             alt="服を着るならこんなふうに(1) (カドカワデジタルコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">服を着るならこんなふうに(1) (カドカワデジタルコミックス)</div>
+                        <div class="static-book-author">縞野やえ, MB</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B01CHAU064?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B01CHAU064.01.L.jpg"
+                             alt="服を着るならこんなふうに(2) (カドカワデジタルコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">服を着るならこんなふうに(2) (カドカワデジタルコミックス)</div>
+                        <div class="static-book-author">縞野やえ, MB</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B01JKOTH9Q?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B01JKOTH9Q.01.L.jpg"
+                             alt="服を着るならこんなふうに(3) (カドカワデジタルコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">服を着るならこんなふうに(3) (カドカワデジタルコミックス)</div>
+                        <div class="static-book-author">縞野やえ, MB</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B01N17Y154?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B01N17Y154.01.L.jpg"
+                             alt="服を着るならこんなふうに(4) (カドカワデジタルコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">服を着るならこんなふうに(4) (カドカワデジタルコミックス)</div>
+                        <div class="static-book-author">縞野やえ, MB</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B07449ZD68?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B07449ZD68.01.L.jpg"
+                             alt="服を着るならこんなふうに(5) (カドカワデジタルコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">服を着るならこんなふうに(5) (カドカワデジタルコミックス)</div>
+                        <div class="static-book-author">縞野やえ, MB</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B077M4RZBZ?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B077M4RZBZ.01.L.jpg"
+                             alt="服を着るならこんなふうに(6) (カドカワデジタルコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">服を着るならこんなふうに(6) (カドカワデジタルコミックス)</div>
+                        <div class="static-book-author">縞野やえ, MB</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B07GN7RTP4?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B07GN7RTP4.01.L.jpg"
+                             alt="服を着るならこんなふうに(7) (カドカワデジタルコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">服を着るならこんなふうに(7) (カドカワデジタルコミックス)</div>
+                        <div class="static-book-author">縞野やえ, MB</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B07NV7HFH6?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B07NV7HFH6.01.L.jpg"
+                             alt="服を着るならこんなふうに(8) (カドカワデジタルコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">服を着るならこんなふうに(8) (カドカワデジタルコミックス)</div>
+                        <div class="static-book-author">縞野やえ, MB</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B07VCHR9S5?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B07VCHR9S5.01.L.jpg"
+                             alt="服を着るならこんなふうに(9) (カドカワデジタルコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">服を着るならこんなふうに(9) (カドカワデジタルコミックス)</div>
+                        <div class="static-book-author">縞野やえ, MB</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B085VR2JZN?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B085VR2JZN.01.L.jpg"
+                             alt="服を着るならこんなふうに(10) (カドカワデジタルコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">服を着るならこんなふうに(10) (カドカワデジタルコミックス)</div>
+                        <div class="static-book-author">縞野やえ, MB</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B01EJ4GXN0?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B01EJ4GXN0.01.L.jpg"
+                             alt="アルキメデスの大戦（１） (ヤングマガジンコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">アルキメデスの大戦（１） (ヤングマガジンコミックス)</div>
+                        <div class="static-book-author">三田紀房</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B01EJ4GZ0G?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B01EJ4GZ0G.01.L.jpg"
+                             alt="アルキメデスの大戦（２） (ヤングマガジンコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">アルキメデスの大戦（２） (ヤングマガジンコミックス)</div>
+                        <div class="static-book-author">三田紀房</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B01J7F7HF4?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B01J7F7HF4.01.L.jpg"
+                             alt="アルキメデスの大戦（３） (ヤングマガジンコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">アルキメデスの大戦（３） (ヤングマガジンコミックス)</div>
+                        <div class="static-book-author">三田紀房</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B01M9ERP0T?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B01M9ERP0T.01.L.jpg"
+                             alt="アルキメデスの大戦（４） (ヤングマガジンコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">アルキメデスの大戦（４） (ヤングマガジンコミックス)</div>
+                        <div class="static-book-author">三田紀房</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B01N4S0AEG?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B01N4S0AEG.01.L.jpg"
+                             alt="アルキメデスの大戦（５） (ヤングマガジンコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">アルキメデスの大戦（５） (ヤングマガジンコミックス)</div>
+                        <div class="static-book-author">三田紀房</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B06XXHHGDT?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B06XXHHGDT.01.L.jpg"
+                             alt="アルキメデスの大戦（６） (ヤングマガジンコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">アルキメデスの大戦（６） (ヤングマガジンコミックス)</div>
+                        <div class="static-book-author">三田紀房</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B0747N5ZPG?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B0747N5ZPG.01.L.jpg"
+                             alt="アルキメデスの大戦（７） (ヤングマガジンコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">アルキメデスの大戦（７） (ヤングマガジンコミックス)</div>
+                        <div class="static-book-author">三田紀房</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B076ZH5Q5S?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B076ZH5Q5S.01.L.jpg"
+                             alt="アルキメデスの大戦（８） (ヤングマガジンコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">アルキメデスの大戦（８） (ヤングマガジンコミックス)</div>
+                        <div class="static-book-author">三田紀房</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B00AQ9HQFW?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B00AQ9HQFW.01.L.jpg"
+                             alt="クロサギ（１） (ヤングサンデーコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">クロサギ（１） (ヤングサンデーコミックス)</div>
+                        <div class="static-book-author">黒丸, 夏原武</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B00AQ9HQGQ?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B00AQ9HQGQ.01.L.jpg"
+                             alt="クロサギ（２） (ヤングサンデーコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">クロサギ（２） (ヤングサンデーコミックス)</div>
+                        <div class="static-book-author">黒丸, 夏原武</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B00AQ9HQIO?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B00AQ9HQIO.01.L.jpg"
+                             alt="クロサギ（３） (ヤングサンデーコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">クロサギ（３） (ヤングサンデーコミックス)</div>
+                        <div class="static-book-author">黒丸, 夏原武</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B00AQ9HQJ8?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B00AQ9HQJ8.01.L.jpg"
+                             alt="クロサギ（４） (ヤングサンデーコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">クロサギ（４） (ヤングサンデーコミックス)</div>
+                        <div class="static-book-author">黒丸, 夏原武</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B00AQ9HQO8?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B00AQ9HQO8.01.L.jpg"
+                             alt="クロサギ（５） (ヤングサンデーコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">クロサギ（５） (ヤングサンデーコミックス)</div>
+                        <div class="static-book-author">黒丸, 夏原武</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B00AQ9HQPW?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B00AQ9HQPW.01.L.jpg"
+                             alt="クロサギ（６） (ヤングサンデーコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">クロサギ（６） (ヤングサンデーコミックス)</div>
+                        <div class="static-book-author">黒丸, 夏原武</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B00AQ9HQR0?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B00AQ9HQR0.01.L.jpg"
+                             alt="クロサギ（７） (ヤングサンデーコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">クロサギ（７） (ヤングサンデーコミックス)</div>
+                        <div class="static-book-author">黒丸, 夏原武</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B00AQ9HQQ6?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B00AQ9HQQ6.01.L.jpg"
+                             alt="クロサギ（８） (ヤングサンデーコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">クロサギ（８） (ヤングサンデーコミックス)</div>
+                        <div class="static-book-author">黒丸, 夏原武</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B00AQ9HQUM?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B00AQ9HQUM.01.L.jpg"
+                             alt="クロサギ（９） (ヤングサンデーコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">クロサギ（９） (ヤングサンデーコミックス)</div>
+                        <div class="static-book-author">黒丸, 夏原武</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B00AQ9HR0G?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B00AQ9HR0G.01.L.jpg"
+                             alt="クロサギ（１０） (ヤングサンデーコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">クロサギ（１０） (ヤングサンデーコミックス)</div>
+                        <div class="static-book-author">黒丸, 夏原武</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B00AQ9HQUC?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B00AQ9HQUC.01.L.jpg"
+                             alt="クロサギ（１１） (ヤングサンデーコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">クロサギ（１１） (ヤングサンデーコミックス)</div>
+                        <div class="static-book-author">黒丸, 夏原武</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B00AQ9HQW0?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B00AQ9HQW0.01.L.jpg"
+                             alt="クロサギ（１２） (ヤングサンデーコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">クロサギ（１２） (ヤングサンデーコミックス)</div>
+                        <div class="static-book-author">黒丸, 夏原武</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B00AQ9HQXO?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B00AQ9HQXO.01.L.jpg"
+                             alt="クロサギ（１３） (ヤングサンデーコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">クロサギ（１３） (ヤングサンデーコミックス)</div>
+                        <div class="static-book-author">黒丸, 夏原武</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B00AQ9HR2Y?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B00AQ9HR2Y.01.L.jpg"
+                             alt="クロサギ（１４） (ヤングサンデーコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">クロサギ（１４） (ヤングサンデーコミックス)</div>
+                        <div class="static-book-author">黒丸, 夏原武</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B00AQ9HR6U?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B00AQ9HR6U.01.L.jpg"
+                             alt="クロサギ（１５） (ヤングサンデーコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">クロサギ（１５） (ヤングサンデーコミックス)</div>
+                        <div class="static-book-author">黒丸, 夏原武</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B00AQ9HRL0?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B00AQ9HRL0.01.L.jpg"
+                             alt="クロサギ（１６） (ヤングサンデーコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">クロサギ（１６） (ヤングサンデーコミックス)</div>
+                        <div class="static-book-author">黒丸, 夏原武</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B00AQ9HRC4?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B00AQ9HRC4.01.L.jpg"
+                             alt="クロサギ（１７） (ヤングサンデーコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">クロサギ（１７） (ヤングサンデーコミックス)</div>
+                        <div class="static-book-author">黒丸, 夏原武</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B00AQ9HRG0?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B00AQ9HRG0.01.L.jpg"
+                             alt="クロサギ（１８） (ヤングサンデーコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">クロサギ（１８） (ヤングサンデーコミックス)</div>
+                        <div class="static-book-author">黒丸, 夏原武</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B00AQ9HRI8?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B00AQ9HRI8.01.L.jpg"
+                             alt="クロサギ（１９） (ヤングサンデーコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">クロサギ（１９） (ヤングサンデーコミックス)</div>
+                        <div class="static-book-author">黒丸, 夏原武</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B00AQ9HRGK?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B00AQ9HRGK.01.L.jpg"
+                             alt="クロサギ（２０） (ヤングサンデーコミックス)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">クロサギ（２０） (ヤングサンデーコミックス)</div>
+                        <div class="static-book-author">黒丸, 夏原武</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B00F4PDB3E?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B00F4PDB3E.01.L.jpg"
+                             alt="インベスターZ(1)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">インベスターZ(1)</div>
+                        <div class="static-book-author">三田紀房</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B00H7OSZYA?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B00H7OSZYA.01.L.jpg"
+                             alt="インベスターZ(2)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">インベスターZ(2)</div>
+                        <div class="static-book-author">三田紀房</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B00IZSDBXM?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B00IZSDBXM.01.L.jpg"
+                             alt="インベスターZ(3)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">インベスターZ(3)</div>
+                        <div class="static-book-author">三田紀房</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B00L41JKRI?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B00L41JKRI.01.L.jpg"
+                             alt="インベスターZ(4)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">インベスターZ(4)</div>
+                        <div class="static-book-author">三田紀房</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B00NHSUCUK?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B00NHSUCUK.01.L.jpg"
+                             alt="インベスターZ(5)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">インベスターZ(5)</div>
+                        <div class="static-book-author">三田紀房</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B00QWBFV3M?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B00QWBFV3M.01.L.jpg"
+                             alt="インベスターZ(6)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">インベスターZ(6)</div>
+                        <div class="static-book-author">三田紀房</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B00TJMATFQ?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B00TJMATFQ.01.L.jpg"
+                             alt="インベスターZ(7)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">インベスターZ(7)</div>
+                        <div class="static-book-author">三田紀房</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B00UKL9WH6?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B00UKL9WH6.01.L.jpg"
+                             alt="インベスターZ(8)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">インベスターZ(8)</div>
+                        <div class="static-book-author">三田紀房</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B00ZBEV6X0?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B00ZBEV6X0.01.L.jpg"
+                             alt="インベスターZ(9)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">インベスターZ(9)</div>
+                        <div class="static-book-author">三田紀房</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B015FR9YBS?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B015FR9YBS.01.L.jpg"
+                             alt="インベスターZ(10)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">インベスターZ(10)</div>
+                        <div class="static-book-author">三田紀房</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B01965GYXG?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B01965GYXG.01.L.jpg"
+                             alt="インベスターZ(11)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">インベスターZ(11)</div>
+                        <div class="static-book-author">三田紀房</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B01CU9YI8S?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B01CU9YI8S.01.L.jpg"
+                             alt="インベスターZ(12)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">インベスターZ(12)</div>
+                        <div class="static-book-author">三田紀房</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B01H3G0D9G?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B01H3G0D9G.01.L.jpg"
+                             alt="インベスターZ(13)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">インベスターZ(13)</div>
+                        <div class="static-book-author">三田紀房</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B01K9FQC16?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B01K9FQC16.01.L.jpg"
+                             alt="インベスターZ(14)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">インベスターZ(14)</div>
+                        <div class="static-book-author">三田紀房</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B01M5BEV8W?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B01M5BEV8W.01.L.jpg"
+                             alt="インベスターZ(15)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">インベスターZ(15)</div>
+                        <div class="static-book-author">三田紀房</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B01N4OZI99?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B01N4OZI99.01.L.jpg"
+                             alt="インベスターZ(16)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">インベスターZ(16)</div>
+                        <div class="static-book-author">三田紀房</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B071XTKHKN?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B071XTKHKN.01.L.jpg"
+                             alt="インベスターZ(17)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">インベスターZ(17)</div>
+                        <div class="static-book-author">三田紀房</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B072V77CHG?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B072V77CHG.01.L.jpg"
+                             alt="インベスターZ(18)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">インベスターZ(18)</div>
+                        <div class="static-book-author">三田紀房</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B074V23Y68?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B074V23Y68.01.L.jpg"
+                             alt="インベスターZ(19)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">インベスターZ(19)</div>
+                        <div class="static-book-author">三田紀房</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B075RW3C8M?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B075RW3C8M.01.L.jpg"
+                             alt="インベスターZ(20)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">インベスターZ(20)</div>
+                        <div class="static-book-author">三田紀房</div>
+                        
+                        
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/B076GZKVK9?tag=islandlog-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/B076GZKVK9.01.L.jpg"
+                             alt="インベスターZ(21)"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">インベスターZ(21)</div>
+                        <div class="static-book-author">三田紀房</div>
+                        
+                        
+                    </div>
+                </div>
+            
+        </main>
+
+        <footer class="footer-info">
+            <h3>📤 この本棚をシェア</h3>
+            <div class="share-buttons">
+                <a href="https://twitter.com/intent/tweet?text=%E3%81%8A%E3%81%99%E3%81%99%E3%82%81%E3%81%AE%E6%BC%AB%E7%94%BB%20%23vbshelf%20https%3A%2F%2Fkeku0440.github.io%2Fmy-bookshelf%2Fstatic%2Fbookshelf_1765990461844.html"
+                   target="_blank" class="share-btn share-twitter">🐦 Twitter</a>
+                <button onclick="copyToClipboard('おすすめの漫画 #vbshelf https://keku0440.github.io/my-bookshelf/static/bookshelf_1765990461844.html')" class="share-btn share-copy">📋 テキストコピー</button>
+            </div>
+
+            <p style="margin-top: 2rem; color: #666;">
+                Powered by <a href="../index.html" style="color: #667eea;">Virtual Bookshelf</a>
+            </p>
+        </footer>
+    </div>
+
+    <script>
+        function copyToClipboard(text) {
+            navigator.clipboard.writeText(text).then(() => {
+                alert('URLをクリップボードにコピーしました！');
+            }).catch(() => {
+                // フォールバック
+                const textArea = document.createElement('textarea');
+                textArea.value = text;
+                document.body.appendChild(textArea);
+                textArea.select();
+                document.execCommand('copy');
+                document.body.removeChild(textArea);
+                alert('URLをクリップボードにコピーしました！');
+            });
+        }
+    </script>
+</body>
+</html>
