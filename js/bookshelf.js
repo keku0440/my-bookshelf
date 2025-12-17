@@ -24,9 +24,6 @@ class VirtualBookshelf {
         this.booksPerPage = 50;
         this.sortOrder = 'custom';
         this.sortDirection = 'desc';
-<<<<<<< HEAD
-        
-=======
 
         // シリーズグループ化関連
         this.seriesManager = null;
@@ -35,7 +32,6 @@ class VirtualBookshelf {
         this.enableSeriesGrouping = false;
         this.displayItems = []; // 表示用アイテム（本またはシリーズ）
 
->>>>>>> upstream/main
         this.init();
     }
 
@@ -158,8 +154,6 @@ class VirtualBookshelf {
         // Initialize Static Bookshelf Generator after userData is fully loaded
         this.staticGenerator = new StaticBookshelfGenerator(this.bookManager, this.userData);
 
-<<<<<<< HEAD
-=======
         // Initialize SeriesManager and detect series
         this.seriesManager = new SeriesManager();
         const { seriesGroups, bookToSeriesMap } = this.seriesManager.detectAndGroupSeries(this.books);
@@ -182,7 +176,6 @@ class VirtualBookshelf {
             this.sortDirection = this.userData.settings.sortDirection;
         }
 
->>>>>>> upstream/main
         this.applyFilters();
     }
 
@@ -204,9 +197,6 @@ class VirtualBookshelf {
         ['star-0', 'star-1', 'star-2', 'star-3', 'star-4', 'star-5'].forEach(id => {
             document.getElementById(id).addEventListener('change', () => this.applyFilters());
         });
-<<<<<<< HEAD
-        
-=======
 
         // Series grouping toggle
         const seriesGroupingCheckbox = document.getElementById('series-grouping');
@@ -216,7 +206,6 @@ class VirtualBookshelf {
             });
         }
 
->>>>>>> upstream/main
         // Sort
         document.getElementById('sort-order').addEventListener('change', (e) => {
             this.sortOrder = e.target.value;
@@ -255,8 +244,6 @@ class VirtualBookshelf {
             this.exportUnifiedData();
         });
 
-<<<<<<< HEAD
-=======
         // Settings export button
         const exportSettingsBtn = document.getElementById('export-settings');
         if (exportSettingsBtn) {
@@ -265,7 +252,6 @@ class VirtualBookshelf {
             });
         }
 
->>>>>>> upstream/main
         // Bookshelf management
         const manageBookshelves = document.getElementById('manage-bookshelves');
         if (manageBookshelves) {
@@ -495,21 +481,14 @@ class VirtualBookshelf {
             
             return this.sortDirection === 'asc' ? comparison : -comparison;
         });
-<<<<<<< HEAD
-        
-=======
 
         // シリーズグループ化を適用
         this.applySeriesGrouping();
 
->>>>>>> upstream/main
         this.currentPage = 1;
         this.updateDisplay();
         this.updateStats();
     }
-<<<<<<< HEAD
-    
-=======
 
     /**
      * シリーズグループ化を適用
@@ -590,7 +569,6 @@ class VirtualBookshelf {
         this.applyFilters();
     }
 
->>>>>>> upstream/main
     toggleSortDirection() {
         this.sortDirection = this.sortDirection === 'asc' ? 'desc' : 'asc';
         this.updateSortDirectionButton();
@@ -690,44 +668,6 @@ class VirtualBookshelf {
 
 
     renderStandardView(container) {
-<<<<<<< HEAD
-        // Apply custom book order only if sort order is set to 'custom'
-        const currentBookshelfId = document.getElementById('bookshelf-selector').value;
-        let booksToRender = [...this.filteredBooks];
-        
-        if (this.sortOrder === 'custom' && this.userData.bookOrder && this.userData.bookOrder[currentBookshelfId]) {
-            const customOrder = this.userData.bookOrder[currentBookshelfId];
-            
-            // Sort books according to custom order, with unordered books at the end
-            booksToRender.sort((a, b) => {
-                const aIndex = customOrder.indexOf(a.asin);
-                const bIndex = customOrder.indexOf(b.asin);
-                
-                if (aIndex === -1 && bIndex === -1) return 0; // Both not in custom order
-                if (aIndex === -1) return 1; // a not in custom order, put at end
-                if (bIndex === -1) return -1; // b not in custom order, put at end
-                return aIndex - bIndex; // Both in custom order, use custom order
-            });
-        }
-        
-        // Handle pagination - 値を一度に取得して固定
-        const booksPerPage = parseInt(this.booksPerPage) || 50;  // 安全な値として取得
-        const currentPage = parseInt(this.currentPage) || 1;
-        
-        let booksToShow;
-        if (booksPerPage >= this.filteredBooks.length) {
-            // Show all books
-            booksToShow = booksToRender;
-        } else {
-            // Show paginated books
-            const startIndex = (currentPage - 1) * booksPerPage;
-            const endIndex = startIndex + booksPerPage;
-            booksToShow = booksToRender.slice(startIndex, endIndex);
-        }
-        
-        booksToShow.forEach(book => {
-            container.appendChild(this.createBookElement(book, this.currentView));
-=======
         // シリーズグループ化が有効な場合はdisplayItemsを使用
         let itemsToRender;
 
@@ -777,7 +717,6 @@ class VirtualBookshelf {
             } else {
                 container.appendChild(this.createBookElement(item.data, this.currentView));
             }
->>>>>>> upstream/main
         });
     }
 
@@ -873,8 +812,6 @@ class VirtualBookshelf {
         return bookElement;
     }
 
-<<<<<<< HEAD
-=======
     /**
      * シリーズ表示要素を生成
      * @param {SeriesInfo} series - シリーズ情報
@@ -949,7 +886,6 @@ class VirtualBookshelf {
         return seriesElement;
     }
 
->>>>>>> upstream/main
     handleDragStart(e) {
         // Get the book-item element, not the drag handle
         const bookItem = e.target.closest('.book-item');
@@ -1326,8 +1262,6 @@ class VirtualBookshelf {
         modal.classList.add('show');
     }
 
-<<<<<<< HEAD
-=======
     /**
      * シリーズ詳細モーダルを表示
      * @param {string} seriesId - シリーズID
@@ -1484,7 +1418,6 @@ class VirtualBookshelf {
         }
     }
 
->>>>>>> upstream/main
     closeModal() {
         const modal = document.getElementById('book-modal');
         modal.classList.remove('show');
@@ -1605,12 +1538,8 @@ class VirtualBookshelf {
             currentBookshelf: 'all',
             theme: 'light',
             booksPerPage: 50,
-<<<<<<< HEAD
-            showImagesInOverview: true
-=======
             showImagesInOverview: true,
             enableSeriesGrouping: true
->>>>>>> upstream/main
         };
     }
 
@@ -1889,21 +1818,13 @@ class VirtualBookshelf {
         bookshelf.books.push(asin);
         this.saveUserData();
         this.renderBookshelfList(); // Update the bookshelf management UI if open
-<<<<<<< HEAD
-        
-        alert(`✅ 「${bookshelf.name}」に追加しました！`);
-        
-=======
 
         alert(`✅ 「${bookshelf.name}」に追加しました！`);
 
->>>>>>> upstream/main
         // Reset the dropdown
         bookshelfSelect.value = '';
     }
 
-<<<<<<< HEAD
-=======
     /**
      * シリーズ全巻を本棚に追加
      * @param {string} seriesId - シリーズID
@@ -2023,7 +1944,6 @@ class VirtualBookshelf {
         bookshelfSelect.value = '';
     }
 
->>>>>>> upstream/main
     removeFromBookshelf(asin, bookshelfId) {
         const bookshelf = this.userData.bookshelves.find(b => b.id === bookshelfId);
         if (!bookshelf || !bookshelf.books) {
@@ -2813,8 +2733,6 @@ class VirtualBookshelf {
     }
 
     /**
-<<<<<<< HEAD
-=======
      * エクスポート可能な設定項目のホワイトリスト
      */
     static EXPORTABLE_SETTINGS = [
@@ -2887,7 +2805,6 @@ class VirtualBookshelf {
     }
 
     /**
->>>>>>> upstream/main
      * 蔵書を全てクリア
      */
     async clearLibrary() {
